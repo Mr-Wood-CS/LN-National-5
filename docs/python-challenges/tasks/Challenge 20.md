@@ -1,26 +1,37 @@
-# Desks for three classrooms
+# Separate two digits
 
 ## Your task
 
 Write a Python program for this task.
 
-Find the minimum total desks for three classes. Each desk seats up to two students. Students in different classes cannot share a desk.
+Display the digits of a positive two-digit whole number separately, in their original order.
 
 ## What to enter
 
-Three whole numbers, each zero or greater: students in the first, second and third class. Type each number on a new line, pressing Enter after each one.
+One whole number from 10 to 99 (including both ends). Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-One whole number: total desks. A class with no students needs no desks.
+Tens digit then units digit, on one line separated by one space.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`//` — whole-number division.** It tells you how many complete groups fit when sharing positive amounts. For example, `17 // 5` gives `3`.
+- **`%` — remainder, also called modulo.** It tells you what is left after division. For example, `17 % 5` gives `2`.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Consider each classroom separately before thinking about the school total. If one student is left without a partner, that student still needs a desk. An empty seat in another classroom cannot help.
+    Write the number under two headings: tens and units. What is the value of each digit's position? Think about division and what can be left over.
 
 ## Need a hand?
 
@@ -57,28 +68,38 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>20</code><br><code>21</code><br><code>22</code></td>
-        <td><code>32</code></td>
+        <td><code>79</code></td>
+        <td><code>7 9</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>1</code><br><code>1</code><br><code>1</code></td>
-        <td><code>3</code></td>
+        <td><code>40</code></td>
+        <td><code>4 0</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>26</code><br><code>20</code><br><code>16</code></td>
-        <td><code>31</code></td>
+        <td><code>11</code></td>
+        <td><code>1 1</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>25</code><br><code>21</code><br><code>23</code></td>
-        <td><code>36</code></td>
+        <td><code>22</code></td>
+        <td><code>2 2</code></td>
       </tr>
       <tr>
         <th scope="row">5</th>
-        <td><code>17</code><br><code>19</code><br><code>18</code></td>
-        <td><code>28</code></td>
+        <td><code>93</code></td>
+        <td><code>9 3</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>74</code></td>
+        <td><code>7 4</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>54</code></td>
+        <td><code>5 4</code></td>
       </tr>
     </tbody>
   </table>

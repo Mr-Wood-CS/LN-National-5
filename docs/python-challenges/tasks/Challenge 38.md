@@ -1,50 +1,53 @@
-# Knight move
+# Compare two rectangles
 
 ## Your task
 
-Write a Python program for this task.
-
-Check whether a knight can travel between two different squares in one move. A knight moves two squares horizontally and one vertically, or two vertically and one horizontally. It may jump over other pieces.
+Calculate the areas of two rectangles and report which is larger. Handle equal areas too.
 
 ## What to enter
 
-Four whole numbers from 1 to 8: starting column, starting row, destination column, destination row. The squares are different. Type each number on a new line, pressing Enter after each one.
+Four positive numbers: first rectangle length and width, then second rectangle length and width. Decimal values are allowed. Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-Show `YES` if the move is allowed; otherwise `NO`.
+`Rectangle 1 has the largest area`, `Rectangle 2 has the largest area`, or `Both rectangles have the same area`.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
 
-Use capital letters for these messages.
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`float()` — turn text into a number that can have a decimal part.** For example, `float("2.5")` gives the number `2.5`.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`*` — multiply numbers.** For example, `6 * 4` gives `24`. Python uses `*`, rather than the multiplication sign you may use on paper.
+- **`if` and `else` — choose between two actions.** The `if` part runs when a condition is true; the `else` part runs otherwise. End each heading with a colon (`:`), and indent the lines underneath it.
+- **`elif` — check another possibility.** Use it between `if` and `else` when there are more than two possible outcomes. In one `if`/`elif`/`else` group, only the first matching part runs.
+- **Comparison signs — ask a question about numbers.** `<` means less than, `>` means greater than, `<=` means less than or equal to, and `>=` means greater than or equal to.
+- **`==` and `!=` — compare values.** `==` asks whether two values are the same; `!=` asks whether they are different. Remember that `=` on its own stores a value.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Draw an L-shaped move on squared paper and count how far it travels across and up or down. Now turn the L. A valid move can face different directions.
+    Find both areas before deciding which message to show. A longer side alone does not tell you which rectangle has more area.
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on making decisions with if, elif and else](https://snakify.org/lessons/if_then_else_conditions/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on making decisions](https://snakify.org/lessons/if_then_else_conditions/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 38: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -59,68 +62,18 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>2</code><br><code>4</code><br><code>3</code><br><code>2</code></td>
-        <td><code>YES</code></td>
+        <td><code>12</code><br><code>6</code><br><code>7</code><br><code>9</code></td>
+        <td><code>Rectangle 1 has the largest area</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>1</code><br><code>1</code><br><code>1</code><br><code>4</code></td>
-        <td><code>NO</code></td>
+        <td><code>2</code><br><code>3</code><br><code>4</code><br><code>5</code></td>
+        <td><code>Rectangle 2 has the largest area</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>1</code><br><code>1</code><br><code>8</code><br><code>8</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>5</code><br><code>2</code><br><code>4</code><br><code>4</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>2</code><br><code>8</code><br><code>3</code><br><code>7</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>2</code><br><code>8</code><br><code>3</code><br><code>5</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td><code>5</code><br><code>5</code><br><code>3</code><br><code>7</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td><code>2</code><br><code>4</code><br><code>2</code><br><code>5</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td><code>4</code><br><code>7</code><br><code>6</code><br><code>6</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">10</th>
-        <td><code>4</code><br><code>5</code><br><code>2</code><br><code>4</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">11</th>
-        <td><code>2</code><br><code>3</code><br><code>3</code><br><code>2</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">12</th>
-        <td><code>5</code><br><code>1</code><br><code>4</code><br><code>3</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">13</th>
-        <td><code>6</code><br><code>2</code><br><code>8</code><br><code>3</code></td>
-        <td><code>YES</code></td>
+        <td><code>2</code><br><code>6</code><br><code>3</code><br><code>4</code></td>
+        <td><code>Both rectangles have the same area</code></td>
       </tr>
     </tbody>
   </table>

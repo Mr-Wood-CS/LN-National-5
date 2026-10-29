@@ -1,48 +1,50 @@
-# Swap two digits
+# Area of a rectangle
 
 ## Your task
 
-Write a Python program for this task.
-
-Reverse the digits of a positive two-digit whole number.
+Calculate the area of a rectangle from its length and width in centimetres.
 
 ## What to enter
 
-One whole number from 10 to 99 (including both ends). Type each number on a new line, pressing Enter after each one.
+Two positive numbers: length, then width. Decimal measurements are allowed. Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-One whole number: the reversed value. Do not keep a zero at the start when the original units digit is zero.
+Show `The area of the rectangle is:` on one line. On the next line, show the area followed by ` square centimetres`. Do not round the area. A whole-number result may be shown with or without `.0`.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
+
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`float()` — turn text into a number that can have a decimal part.** For example, `float("2.5")` gives the number `2.5`.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`*` — multiply numbers.** For example, `6 * 4` gives `24`. Python uses `*`, rather than the multiplication sign you may use on paper.
+- **f-strings — put a value inside a message.** Put `f` before the opening quotation mark and a variable inside curly brackets. For example, `f"Score: {score}"` inserts the value stored in `score`.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Write the two digits in separate boxes, then imagine swapping the boxes. Remember that a digit's position changes its value. Check what the task says about a zero at the start.
+    Draw the rectangle and label the two measurements. Area measures the space inside it, rather than the distance around its edge.
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on working with numbers](https://snakify.org/lessons/integer_float_numbers/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/integer_float_numbers/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on entering and displaying information](https://snakify.org/lessons/print_input_numbers/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 9: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -57,28 +59,13 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>79</code></td>
-        <td><code>97</code></td>
+        <td><code>12</code><br><code>6</code></td>
+        <td><code>The area of the rectangle is:</code><br><code>72 square centimetres</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>48</code></td>
-        <td><code>84</code></td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td><code>22</code></td>
-        <td><code>22</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>17</code></td>
-        <td><code>71</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>36</code></td>
-        <td><code>63</code></td>
+        <td><code>2.5</code><br><code>4</code></td>
+        <td><code>The area of the rectangle is:</code><br><code>10 square centimetres</code></td>
       </tr>
     </tbody>
   </table>

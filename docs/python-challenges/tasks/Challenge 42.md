@@ -1,26 +1,41 @@
-# Smallest of five numbers
+# Three-digit number
 
 ## Your task
 
 Write a Python program for this task.
 
-Report the smallest of five entered whole numbers.
+Check whether a whole number has exactly three digits. A minus sign is not a digit; negative numbers with three digits count too.
 
 ## What to enter
 
-Five whole numbers; negative numbers, zero and repeated numbers are allowed. Type each number on a new line, pressing Enter after each one.
+One whole number; negative numbers and zero are allowed. Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-One whole number: smallest value, displayed once.
+Show `YES` if it has exactly three digits; otherwise `NO`.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+Use capital letters for these messages.
+
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`abs()` — get the size of a number without its minus sign.** For example, `abs(-12)` gives `12`. This is also useful when you care about distance rather than direction.
+- **`if` and `else` — choose between two actions.** The `if` part runs when a condition is true; the `else` part runs otherwise. End each heading with a colon (`:`), and indent the lines underneath it.
+- **Comparison signs — ask a question about numbers.** `<` means less than, `>` means greater than, `<=` means less than or equal to, and `>=` means greater than or equal to.
+- **`and` — require both checks to be true.** For example, `age >= 12 and age <= 16` checks whether an age is within that range, including the ends.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Keep all five values in mind: the smallest could appear in any position. Could the comparisons you used for two or three numbers help you organise this larger task?
+    Think about the first and last positive numbers with three digits. Then consider the same number of digits with a minus sign in front. The minus sign does not count as a digit.
 
 ## Need a hand?
 
@@ -57,53 +72,53 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>10</code><br><code>20</code><br><code>30</code><br><code>40</code><br><code>50</code></td>
-        <td><code>10</code></td>
+        <td><code>179</code></td>
+        <td><code>YES</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>21</code><br><code>11</code><br><code>31</code><br><code>41</code><br><code>51</code></td>
-        <td><code>11</code></td>
+        <td><code>1234</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>48</code><br><code>49</code><br><code>47</code><br><code>50</code><br><code>55</code></td>
-        <td><code>47</code></td>
+        <td><code>100</code></td>
+        <td><code>YES</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>10</code><br><code>20</code><br><code>30</code><br><code>40</code><br><code>0</code></td>
-        <td><code>0</code></td>
+        <td><code>99</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">5</th>
-        <td><code>100</code><br><code>200</code><br><code>300</code><br><code>20</code><br><code>400</code></td>
-        <td><code>20</code></td>
+        <td><code>7</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">6</th>
-        <td><code>15</code><br><code>16</code><br><code>17</code><br><code>11</code><br><code>12</code></td>
-        <td><code>11</code></td>
+        <td><code>999</code></td>
+        <td><code>YES</code></td>
       </tr>
       <tr>
         <th scope="row">7</th>
-        <td><code>15</code><br><code>16</code><br><code>17</code><br><code>11</code><br><code>10</code></td>
-        <td><code>10</code></td>
+        <td><code>238</code></td>
+        <td><code>YES</code></td>
       </tr>
       <tr>
         <th scope="row">8</th>
-        <td><code>16</code><br><code>15</code><br><code>17</code><br><code>21</code><br><code>22</code></td>
-        <td><code>15</code></td>
+        <td><code>1000</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">9</th>
-        <td><code>18</code><br><code>19</code><br><code>16</code><br><code>17</code><br><code>30</code></td>
-        <td><code>16</code></td>
+        <td><code>8912</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">10</th>
-        <td><code>18</code><br><code>19</code><br><code>5</code><br><code>3</code><br><code>8</code></td>
-        <td><code>3</code></td>
+        <td><code>12912</code></td>
+        <td><code>NO</code></td>
       </tr>
     </tbody>
   </table>

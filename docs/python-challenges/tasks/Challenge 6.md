@@ -1,48 +1,49 @@
-# Elapsed hours and minutes
+# Formatting an address
 
 ## Your task
 
-Write a Python program for this task.
-
-Report total complete hours and total complete minutes elapsed since midnight. Give two totals: all the full hours since midnight and all the full minutes since midnight. The minutes total can be greater than 59.
+Combine a house number, street name and town into a single text variable, then display it.
 
 ## What to enter
 
-One whole number: seconds since midnight, from 0 to 86399 (including both ends). Type each number on a new line, pressing Enter after each one.
+House number or name, street name, then town. Read all three as text; a house number may contain a letter. Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-Two whole numbers on one line separated by one space: complete hours (0–23), then complete minutes (0–1439). Count only full hours and full minutes. Ignore any seconds left over.
+One line with the three parts separated by a comma and one space.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
+
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **Text and `+` — join pieces of writing.** Text goes inside quotation marks. For example, `"Good" + " morning"` gives `Good morning`. Spaces must be included where you want them.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Both answers describe the time since midnight. The minutes answer is a total, so it does not start again when a full hour passes. Think about the number of seconds in each unit of time.
+    Decide where each comma and space belongs before joining the parts. Keep house details as text rather than treating them as an amount.
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on entering information and showing results](https://snakify.org/lessons/print_input_numbers/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on entering and displaying information](https://snakify.org/lessons/print_input_numbers/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 6: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -57,33 +58,13 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>3900</code></td>
-        <td><code>1 65</code></td>
+        <td><code>13</code><br><code>Aberlove Drive</code><br><code>Buckhaven</code></td>
+        <td><code>13, Aberlove Drive, Buckhaven</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>8000</code></td>
-        <td><code>2 133</code></td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td><code>100</code></td>
-        <td><code>0 1</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>59</code></td>
-        <td><code>0 0</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>12345</code></td>
-        <td><code>3 205</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>86010</code></td>
-        <td><code>23 1433</code></td>
+        <td><code>4B</code><br><code>High Street</code><br><code>Fort William</code></td>
+        <td><code>4B, High Street, Fort William</code></td>
       </tr>
     </tbody>
   </table>

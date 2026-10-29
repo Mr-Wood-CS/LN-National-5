@@ -32,3 +32,6 @@ tmp/
 .env
 .env.*
 !.env.example
+
+# Private local teacher solutions (not for pupil access)
+/_teacher-solutions/python-challenges/

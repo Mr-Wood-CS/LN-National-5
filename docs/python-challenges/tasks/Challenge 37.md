@@ -1,28 +1,37 @@
-# Queen move
+# Smallest of two numbers
 
 ## Your task
 
 Write a Python program for this task.
 
-Check whether a queen can travel between two different squares in one move. A queen moves any positive number of squares horizontally, vertically or diagonally. Assume there are no other pieces.
+Report the smaller of two entered whole numbers.
 
 ## What to enter
 
-Four whole numbers from 1 to 8: starting column, starting row, destination column, destination row. The squares are different. Type each number on a new line, pressing Enter after each one.
+Two whole numbers; negative values, zero and equal values are allowed. Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-Show `YES` if the move is allowed; otherwise `NO`.
+One whole number: smaller value. If equal, display that value once.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
 
-Use capital letters for these messages.
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`if` and `else` — choose between two actions.** The `if` part runs when a condition is true; the `else` part runs otherwise. End each heading with a colon (`:`), and indent the lines underneath it.
+- **Comparison signs — ask a question about numbers.** `<` means less than, `>` means greater than, `<=` means less than or equal to, and `>=` means greater than or equal to.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Think back to the rook and bishop challenges. Which movement directions does the queen share with them? The move is allowed if it follows any one of the queen's permitted directions.
+    You only need to compare the two values. Think about which one you would point to on a number line. What should your program do if both values are the same?
 
 ## Need a hand?
 
@@ -59,78 +68,23 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>1</code><br><code>1</code><br><code>2</code><br><code>2</code></td>
-        <td><code>YES</code></td>
+        <td><code>3</code><br><code>7</code></td>
+        <td><code>3</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>1</code><br><code>1</code><br><code>2</code><br><code>3</code></td>
-        <td><code>NO</code></td>
+        <td><code>2</code><br><code>2</code></td>
+        <td><code>2</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>5</code><br><code>6</code><br><code>3</code><br><code>3</code></td>
-        <td><code>NO</code></td>
+        <td><code>15</code><br><code>-8</code></td>
+        <td><code>-8</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>3</code><br><code>3</code><br><code>1</code><br><code>1</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>6</code><br><code>5</code><br><code>2</code><br><code>5</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>7</code><br><code>6</code><br><code>5</code><br><code>2</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td><code>2</code><br><code>7</code><br><code>6</code><br><code>7</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td><code>2</code><br><code>7</code><br><code>4</code><br><code>6</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td><code>7</code><br><code>4</code><br><code>2</code><br><code>5</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">10</th>
-        <td><code>7</code><br><code>5</code><br><code>1</code><br><code>1</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">11</th>
-        <td><code>2</code><br><code>4</code><br><code>5</code><br><code>7</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">12</th>
-        <td><code>3</code><br><code>5</code><br><code>7</code><br><code>1</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">13</th>
-        <td><code>5</code><br><code>2</code><br><code>5</code><br><code>8</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">14</th>
-        <td><code>1</code><br><code>2</code><br><code>3</code><br><code>1</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">15</th>
-        <td><code>2</code><br><code>1</code><br><code>1</code><br><code>3</code></td>
-        <td><code>NO</code></td>
+        <td><code>-15</code><br><code>-8</code></td>
+        <td><code>-15</code></td>
       </tr>
     </tbody>
   </table>

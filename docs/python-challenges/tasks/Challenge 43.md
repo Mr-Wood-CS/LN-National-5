@@ -1,26 +1,41 @@
-# Missing corner of a rectangle
+# Exactly one positive number
 
 ## Your task
 
 Write a Python program for this task.
 
-Find the fourth corner of a rectangle from its other three corners. The rectangle sits straight, with two horizontal sides and two vertical sides. Each corner has an x position (across) and a y position (up or down).
+Check whether exactly one of two whole numbers is positive. If both numbers are positive, or both are negative, the answer is NO.
 
 ## What to enter
 
-Six whole numbers: x then y for the first corner, then x and y for the second and third corners. The three corners are different and may be given in any order. The rectangle is not flat. Positions can be negative or zero. Type each number on a new line, pressing Enter after each one.
+Two whole numbers. Neither number can be zero. Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-Missing corner's x coordinate on the first line and y coordinate on the second line.
+Show `YES` if exactly one is positive; otherwise `NO`.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+Use capital letters for these messages.
+
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`if` and `else` — choose between two actions.** The `if` part runs when a condition is true; the `else` part runs otherwise. End each heading with a colon (`:`), and indent the lines underneath it.
+- **Comparison signs — ask a question about numbers.** `<` means less than, `>` means greater than, `<=` means less than or equal to, and `>=` means greater than or equal to.
+- **`and` — require both checks to be true.** For example, `age >= 12 and age <= 16` checks whether an age is within that range, including the ends.
+- **`or` — allow either check to be true.** For example, `choice == "A" or choice == "B"` accepts either of those letters.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Sketch a rectangle and label the coordinates of its corners. A vertical side joins corners with the same x position; a horizontal side joins corners with the same y position. Look at the x positions separately from the y positions.
+    Consider the possible pairs: both positive, both negative, or one of each. Which kinds of pair fit the words 'exactly one'? Zero will not be entered in this task.
 
 ## Need a hand?
 
@@ -57,43 +72,43 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>1</code><br><code>5</code><br><code>7</code><br><code>5</code><br><code>1</code><br><code>10</code></td>
-        <td><code>7</code><br><code>10</code></td>
+        <td><code>-5</code><br><code>10</code></td>
+        <td><code>YES</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>1</code><br><code>5</code><br><code>7</code><br><code>10</code><br><code>1</code><br><code>10</code></td>
-        <td><code>7</code><br><code>5</code></td>
+        <td><code>5</code><br><code>10</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>7</code><br><code>5</code><br><code>1</code><br><code>10</code><br><code>7</code><br><code>10</code></td>
-        <td><code>1</code><br><code>5</code></td>
+        <td><code>-7</code><br><code>-9</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>1</code><br><code>10</code><br><code>7</code><br><code>5</code><br><code>7</code><br><code>10</code></td>
-        <td><code>1</code><br><code>5</code></td>
+        <td><code>12</code><br><code>-9</code></td>
+        <td><code>YES</code></td>
       </tr>
       <tr>
         <th scope="row">5</th>
-        <td><code>50</code><br><code>100</code><br><code>50</code><br><code>200</code><br><code>20</code><br><code>200</code></td>
-        <td><code>20</code><br><code>100</code></td>
+        <td><code>-6</code><br><code>19</code></td>
+        <td><code>YES</code></td>
       </tr>
       <tr>
         <th scope="row">6</th>
-        <td><code>20</code><br><code>100</code><br><code>20</code><br><code>200</code><br><code>50</code><br><code>200</code></td>
-        <td><code>50</code><br><code>100</code></td>
+        <td><code>8</code><br><code>11</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">7</th>
-        <td><code>50</code><br><code>100</code><br><code>20</code><br><code>100</code><br><code>50</code><br><code>200</code></td>
-        <td><code>20</code><br><code>200</code></td>
+        <td><code>11</code><br><code>19</code></td>
+        <td><code>NO</code></td>
       </tr>
       <tr>
         <th scope="row">8</th>
-        <td><code>50</code><br><code>100</code><br><code>20</code><br><code>200</code><br><code>20</code><br><code>100</code></td>
-        <td><code>50</code><br><code>200</code></td>
+        <td><code>-5</code><br><code>-22</code></td>
+        <td><code>NO</code></td>
       </tr>
     </tbody>
   </table>

@@ -1,33 +1,43 @@
-# Separate two digits
+# Sum of three numbers
 
 ## Your task
 
 Write a Python program for this task.
 
-Display the digits of a positive two-digit whole number separately, in their original order.
+Read three whole numbers and display their total.
 
 ## What to enter
 
-One whole number from 10 to 99 (including both ends). Type each number on a new line, pressing Enter after each one.
+Three whole numbers; negative numbers and zero are allowed. Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-Tens digit then units digit, on one line separated by one space.
+One whole number: the total.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`+` — add numbers.** For example, `8 + 4` gives `12`. Make sure the values are numbers: joining text works differently.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Write the number under two headings: tens and units. What is the value of each digit's position? Think about division and what can be left over.
+    Give each of the three numbers its own variable. Before using them in a calculation, check that Python is treating them as numbers rather than text.
 
 ## Need a hand?
 
 If you are stuck, try one of these help pages, then come back to your program.
 
-- [Read the lesson on working with numbers](https://snakify.org/lessons/integer_float_numbers/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/integer_float_numbers/steps/1/)
+- [Read the lesson on entering information and showing results](https://snakify.org/lessons/print_input_numbers/)
+- [Work through the same lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
 
 If you are still unsure, ask your teacher to help you understand the task.
 
@@ -57,38 +67,18 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>79</code></td>
-        <td><code>7 9</code></td>
+        <td><code>2</code><br><code>3</code><br><code>6</code></td>
+        <td><code>11</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>40</code></td>
-        <td><code>4 0</code></td>
+        <td><code>0</code><br><code>20</code><br><code>300</code></td>
+        <td><code>320</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>11</code></td>
-        <td><code>1 1</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>22</code></td>
-        <td><code>2 2</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>93</code></td>
-        <td><code>9 3</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>74</code></td>
-        <td><code>7 4</code></td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td><code>54</code></td>
-        <td><code>5 4</code></td>
+        <td><code>-5</code><br><code>180</code><br><code>-17</code></td>
+        <td><code>158</code></td>
       </tr>
     </tbody>
   </table>

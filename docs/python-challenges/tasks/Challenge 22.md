@@ -1,33 +1,44 @@
-# Smallest of two numbers
+# Last two digits
 
 ## Your task
 
 Write a Python program for this task.
 
-Report the smaller of two entered whole numbers.
+Display the final two digits of a positive whole number.
 
 ## What to enter
 
-Two whole numbers; negative values, zero and equal values are allowed. Type each number on a new line, pressing Enter after each one.
+One whole number greater than or equal to 10. Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-One whole number: smaller value. If equal, display that value once.
+Exactly two digits on one line. Keep a zero at the start if needed, including `00` if both final digits are zero.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`%` — remainder, also called modulo.** It tells you what is left after division. For example, `17 % 5` gives `2`.
+- **Number formatting — keep a zero at the start.** In an f-string, `:02d` shows a whole number using at least two digits. For example, `f"{7:02d}"` gives the text `07`.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    You only need to compare the two values. Think about which one you would point to on a number line. What should your program do if both values are the same?
+    Underline just the final two digits of the number. The earlier digits should not affect your result. Think separately about finding those digits and showing both of them when one is zero.
 
 ## Need a hand?
 
 If you are stuck, try one of these help pages, then come back to your program.
 
-- [Read the lesson on making decisions with if, elif and else](https://snakify.org/lessons/if_then_else_conditions/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
+- [Read the lesson on working with numbers](https://snakify.org/lessons/integer_float_numbers/)
+- [Work through the same lesson one small step at a time](https://snakify.org/lessons/integer_float_numbers/steps/1/)
 
 If you are still unsure, ask your teacher to help you understand the task.
 
@@ -57,23 +68,28 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>3</code><br><code>7</code></td>
-        <td><code>3</code></td>
+        <td><code>1234</code></td>
+        <td><code>34</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>2</code><br><code>2</code></td>
-        <td><code>2</code></td>
+        <td><code>567</code></td>
+        <td><code>67</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>15</code><br><code>-8</code></td>
-        <td><code>-8</code></td>
+        <td><code>64</code></td>
+        <td><code>64</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>-15</code><br><code>-8</code></td>
-        <td><code>-15</code></td>
+        <td><code>82649</code></td>
+        <td><code>49</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>182310</code></td>
+        <td><code>10</code></td>
       </tr>
     </tbody>
   </table>

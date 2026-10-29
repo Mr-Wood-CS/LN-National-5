@@ -1,35 +1,45 @@
-# Three-digit number
+# Sum of three digits
 
 ## Your task
 
 Write a Python program for this task.
 
-Check whether a whole number has exactly three digits. A minus sign is not a digit; negative numbers with three digits count too.
+Add the digits of a positive three-digit whole number.
 
 ## What to enter
 
-One whole number; negative numbers and zero are allowed. Type each number on a new line, pressing Enter after each one.
+One whole number from 100 to 999 (including both ends). Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-Show `YES` if it has exactly three digits; otherwise `NO`.
+One whole number: the sum of its digits.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
 
-Use capital letters for these messages.
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`//` — whole-number division.** It tells you how many complete groups fit when sharing positive amounts. For example, `17 // 5` gives `3`.
+- **`%` — remainder, also called modulo.** It tells you what is left after division. For example, `17 % 5` gives `2`.
+- **`+` — add numbers.** For example, `8 + 4` gives `12`. Make sure the values are numbers: joining text works differently.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Think about the first and last positive numbers with three digits. Then consider the same number of digits with a minus sign in front. The minus sign does not count as a digit.
+    Put each of the three digits in its own box. The task asks for a total of the digits, rather than a total involving their place values. Check your approach with a number that contains a zero.
 
 ## Need a hand?
 
 If you are stuck, try one of these help pages, then come back to your program.
 
-- [Read the lesson on making decisions with if, elif and else](https://snakify.org/lessons/if_then_else_conditions/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
+- [Read the lesson on working with numbers](https://snakify.org/lessons/integer_float_numbers/)
+- [Work through the same lesson one small step at a time](https://snakify.org/lessons/integer_float_numbers/steps/1/)
 
 If you are still unsure, ask your teacher to help you understand the task.
 
@@ -59,53 +69,33 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>179</code></td>
-        <td><code>YES</code></td>
+        <td><code>123</code></td>
+        <td><code>6</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>1234</code></td>
-        <td><code>NO</code></td>
+        <td><code>179</code></td>
+        <td><code>17</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>100</code></td>
-        <td><code>YES</code></td>
+        <td><code>829</code></td>
+        <td><code>19</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>99</code></td>
-        <td><code>NO</code></td>
+        <td><code>100</code></td>
+        <td><code>1</code></td>
       </tr>
       <tr>
         <th scope="row">5</th>
-        <td><code>7</code></td>
-        <td><code>NO</code></td>
+        <td><code>999</code></td>
+        <td><code>27</code></td>
       </tr>
       <tr>
         <th scope="row">6</th>
-        <td><code>999</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td><code>238</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td><code>1000</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td><code>8912</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">10</th>
-        <td><code>12912</code></td>
-        <td><code>NO</code></td>
+        <td><code>483</code></td>
+        <td><code>15</code></td>
       </tr>
     </tbody>
   </table>

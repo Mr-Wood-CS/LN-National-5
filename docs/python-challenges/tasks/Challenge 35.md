@@ -1,50 +1,52 @@
-# King move
+# Charity collection
 
 ## Your task
 
-Write a Python program for this task.
-
-Check whether a king can travel between two different squares in one move. A king moves exactly one square horizontally, vertically or diagonally. Ignore other pieces and restrictions caused by check.
+Add the money raised by three friends. If their total is at least £1000, a company doubles it. Otherwise the total stays unchanged.
 
 ## What to enter
 
-Four whole numbers from 1 to 8: starting column, starting row, destination column, destination row. The squares are different. Type each number on a new line, pressing Enter after each one.
+Three whole-pound amounts, each zero or greater. Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-Show `YES` if the move is allowed; otherwise `NO`.
+Always show `A total of £t was raised.` with the original total. If it is at least £1000, also show `This will be doubled to £f.` with the final amount. Otherwise, show only the first line.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
 
-Use capital letters for these messages.
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`+` — add numbers.** For example, `8 + 4` gives `12`. Make sure the values are numbers: joining text works differently.
+- **`if` — do something only when a check is true.** End the heading with a colon and indent the action underneath it. If the check is false, that action is skipped.
+- **Comparison signs — ask a question about numbers.** `<` means less than, `>` means greater than, `<=` means less than or equal to, and `>=` means greater than or equal to.
+- **f-strings — put a value inside a message.** Put `f` before the opening quotation mark and a variable inside curly brackets. For example, `f"Score: {score}"` inserts the value stored in `score`.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Draw the squares immediately around the king. Compare each one's row and column with the king's starting square. Being in a permitted direction is not enough if the destination is too far away.
+    Keep the original total so that the first message remains correct even if the company adds money. Exactly £1000 qualifies.
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on making decisions with if, elif and else](https://snakify.org/lessons/if_then_else_conditions/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on making decisions](https://snakify.org/lessons/if_then_else_conditions/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 35: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -59,103 +61,18 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>4</code><br><code>4</code><br><code>5</code><br><code>5</code></td>
-        <td><code>YES</code></td>
+        <td><code>398</code><br><code>193</code><br><code>478</code></td>
+        <td><code>A total of £1069 was raised.</code><br><code>This will be doubled to £2138.</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>4</code><br><code>4</code><br><code>5</code><br><code>4</code></td>
-        <td><code>YES</code></td>
+        <td><code>300</code><br><code>300</code><br><code>400</code></td>
+        <td><code>A total of £1000 was raised.</code><br><code>This will be doubled to £2000.</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>4</code><br><code>4</code><br><code>5</code><br><code>3</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>4</code><br><code>4</code><br><code>4</code><br><code>5</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>4</code><br><code>4</code><br><code>3</code><br><code>5</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>4</code><br><code>4</code><br><code>4</code><br><code>3</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td><code>4</code><br><code>4</code><br><code>3</code><br><code>4</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td><code>4</code><br><code>4</code><br><code>3</code><br><code>3</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td><code>1</code><br><code>1</code><br><code>1</code><br><code>8</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">10</th>
-        <td><code>1</code><br><code>1</code><br><code>8</code><br><code>8</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">11</th>
-        <td><code>1</code><br><code>1</code><br><code>8</code><br><code>1</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">12</th>
-        <td><code>1</code><br><code>8</code><br><code>8</code><br><code>8</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">13</th>
-        <td><code>1</code><br><code>8</code><br><code>8</code><br><code>1</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">14</th>
-        <td><code>1</code><br><code>8</code><br><code>1</code><br><code>1</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">15</th>
-        <td><code>8</code><br><code>8</code><br><code>8</code><br><code>1</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">16</th>
-        <td><code>1</code><br><code>1</code><br><code>1</code><br><code>2</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">17</th>
-        <td><code>1</code><br><code>1</code><br><code>2</code><br><code>2</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">18</th>
-        <td><code>1</code><br><code>1</code><br><code>2</code><br><code>1</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">19</th>
-        <td><code>4</code><br><code>4</code><br><code>6</code><br><code>6</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">20</th>
-        <td><code>1</code><br><code>7</code><br><code>1</code><br><code>8</code></td>
-        <td><code>YES</code></td>
+        <td><code>100</code><br><code>200</code><br><code>300</code></td>
+        <td><code>A total of £600 was raised.</code></td>
       </tr>
     </tbody>
   </table>

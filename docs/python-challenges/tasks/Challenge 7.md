@@ -1,48 +1,48 @@
-# Time between two timestamps
+# Formatting telephone numbers
 
 ## Your task
 
-Write a Python program for this task.
-
-Find elapsed seconds between two times on the same day. The second time is later than, or the same as, the first. Both times are on the same day. If they are the same, the time between them is zero seconds.
+Join an area code and local telephone code, keeping every digit as entered.
 
 ## What to enter
 
-Six whole numbers: first hour, first minute, first second, second hour, second minute, second second. Hours are 0–23; minutes and seconds are 0–59. Type each number on a new line, pressing Enter after each one.
+Area code, then local code, both as text. Keep zeros at the start. Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-One whole number: elapsed seconds.
+Show `You have entered:` on one line, then the area code and local code separated by one space.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
+
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **Text and `+` — join pieces of writing.** Text goes inside quotation marks. For example, `"Good" + " morning"` gives `Good morning`. Spaces must be included where you want them.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    It is easier to compare two times when they use the same unit. Think about how you could describe each time using only seconds. If the times are identical, should any time have passed?
+    Telephone digits are labels, not quantities. Converting them to numbers could lose information.
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on entering information and showing results](https://snakify.org/lessons/print_input_numbers/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on entering and displaying information](https://snakify.org/lessons/print_input_numbers/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 7: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -57,33 +57,13 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>1</code><br><code>1</code><br><code>1</code><br><code>2</code><br><code>2</code><br><code>2</code></td>
-        <td><code>3661</code></td>
+        <td><code>01592</code><br><code>583403</code></td>
+        <td><code>You have entered:</code><br><code>01592 583403</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>1</code><br><code>2</code><br><code>30</code><br><code>1</code><br><code>3</code><br><code>20</code></td>
-        <td><code>50</code></td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td><code>6</code><br><code>54</code><br><code>4</code><br><code>14</code><br><code>18</code><br><code>42</code></td>
-        <td><code>26678</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>1</code><br><code>49</code><br><code>28</code><br><code>14</code><br><code>7</code><br><code>55</code></td>
-        <td><code>44307</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>4</code><br><code>16</code><br><code>9</code><br><code>12</code><br><code>6</code><br><code>7</code></td>
-        <td><code>28198</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>5</code><br><code>13</code><br><code>38</code><br><code>5</code><br><code>13</code><br><code>38</code></td>
-        <td><code>0</code></td>
+        <td><code>01397</code><br><code>001234</code></td>
+        <td><code>You have entered:</code><br><code>01397 001234</code></td>
       </tr>
     </tbody>
   </table>

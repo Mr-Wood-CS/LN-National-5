@@ -1,33 +1,46 @@
-# Odd or even
+# Swap two digits
 
 ## Your task
 
 Write a Python program for this task.
 
-Check whether a whole number is odd or even.
+Reverse the digits of a positive two-digit whole number.
 
 ## What to enter
 
-One whole number; negative numbers and zero are allowed. Type each number on a new line, pressing Enter after each one.
+One whole number from 10 to 99 (including both ends). Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-Exactly `odd` or `even` in lowercase. Zero is even.
+One whole number: the reversed value. Do not keep a zero at the start when the original units digit is zero.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`//` — whole-number division.** It tells you how many complete groups fit when sharing positive amounts. For example, `17 // 5` gives `3`.
+- **`%` — remainder, also called modulo.** It tells you what is left after division. For example, `17 % 5` gives `2`.
+- **`*` — multiply numbers.** For example, `6 * 4` gives `24`. Python uses `*`, rather than the multiplication sign you may use on paper.
+- **`+` — add numbers.** For example, `8 + 4` gives `12`. Make sure the values are numbers: joining text works differently.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Imagine putting the number into pairs. Think about what an even number and an odd number leave over when divided into pairs. Remember to try the supplied zero and negative-number tests too.
+    Write the two digits in separate boxes, then imagine swapping the boxes. Remember that a digit's position changes its value. Check what the task says about a zero at the start.
 
 ## Need a hand?
 
 If you are stuck, try one of these help pages, then come back to your program.
 
-- [Read the lesson on making decisions with if, elif and else](https://snakify.org/lessons/if_then_else_conditions/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
+- [Read the lesson on working with numbers](https://snakify.org/lessons/integer_float_numbers/)
+- [Work through the same lesson one small step at a time](https://snakify.org/lessons/integer_float_numbers/steps/1/)
 
 If you are still unsure, ask your teacher to help you understand the task.
 
@@ -57,43 +70,28 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>5</code></td>
-        <td><code>odd</code></td>
+        <td><code>79</code></td>
+        <td><code>97</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>6</code></td>
-        <td><code>even</code></td>
+        <td><code>48</code></td>
+        <td><code>84</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>9</code></td>
-        <td><code>odd</code></td>
+        <td><code>22</code></td>
+        <td><code>22</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>12</code></td>
-        <td><code>even</code></td>
+        <td><code>17</code></td>
+        <td><code>71</code></td>
       </tr>
       <tr>
         <th scope="row">5</th>
-        <td><code>1</code></td>
-        <td><code>odd</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>0</code></td>
-        <td><code>even</code></td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td><code>-891</code></td>
-        <td><code>odd</code></td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td><code>284</code></td>
-        <td><code>even</code></td>
+        <td><code>36</code></td>
+        <td><code>63</code></td>
       </tr>
     </tbody>
   </table>

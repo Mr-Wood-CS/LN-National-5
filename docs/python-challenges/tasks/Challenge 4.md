@@ -1,48 +1,49 @@
-# Previous and next numbers
+# Three in, three out: formatted
 
 ## Your task
 
-Write a Python program for this task.
-
-Report the whole numbers immediately after and before an entered whole number.
+Read the same three pieces of information as in Three in, three out, but arrange them on two lines.
 
 ## What to enter
 
-One whole number; negative numbers and zero are allowed. Type each number on a new line, pressing Enter after each one.
+Name (text), age (a whole number of zero or more), then favourite TV programme (text). Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-Two lines in this order: `The next number for the number N is NEXT` and `The previous number for the number N is PREVIOUS`. Replace the placeholders with correct numbers; do not add punctuation.
+First line: the name, one space, then the age. Second line: `Likes watching ` followed by the programme title.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
+
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **f-strings — put a value inside a message.** Put `f` before the opening quotation mark and a variable inside curly brackets. For example, `f"Score: {score}"` inserts the value stored in `score`.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Mark the entered number on a number line. Which number is immediately before it, and which is immediately after it? Check the order of the two sentences the task asks you to display.
+    Sketch the two output lines. Which entered values share a line, and where is a space needed?
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on entering information and showing results](https://snakify.org/lessons/print_input_numbers/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on entering and displaying information](https://snakify.org/lessons/print_input_numbers/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 4: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -57,18 +58,13 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>179</code></td>
-        <td><code>The next number for the number 179 is 180</code><br><code>The previous number for the number 179 is 178</code></td>
+        <td><code>Lister</code><br><code>39</code><br><code>Red Dwarf</code></td>
+        <td><code>Lister 39</code><br><code>Likes watching Red Dwarf</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>0</code></td>
-        <td><code>The next number for the number 0 is 1</code><br><code>The previous number for the number 0 is -1</code></td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td><code>1234</code></td>
-        <td><code>The next number for the number 1234 is 1235</code><br><code>The previous number for the number 1234 is 1233</code></td>
+        <td><code>Aisha</code><br><code>14</code><br><code>Doctor Who</code></td>
+        <td><code>Aisha 14</code><br><code>Likes watching Doctor Who</code></td>
       </tr>
     </tbody>
   </table>

@@ -1,48 +1,50 @@
-# Total cupcake cost
+# Standard scratch golf score
 
 ## Your task
 
-Write a Python program for this task.
-
-Calculate the total cost of several cupcakes from the price of one. One dollar equals 100 cents.
+Each par-3 hole contributes 3 shots, each par-4 hole 4 shots, and each par-5 hole 5 shots. Add their contributions, then add the signed difficulty adjustment to find the standard scratch score.
 
 ## What to enter
 
-Three whole numbers: dollars per cupcake (at least 0), cents per cupcake (0–99), then cupcake quantity (at least 0). Type each number on a new line, pressing Enter after each one.
+Four whole numbers: count of par-3 holes, count of par-4 holes, count of par-5 holes, then difficulty adjustment. Counts are zero or greater; the adjustment may be negative. Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-Two whole numbers on one line separated by one space: total whole dollars, then remaining cents (0–99). Do not add a dollar sign or put a zero before a one-digit cents amount.
+Show `The Standard Scratch for the course is:` on one line and the score on the next.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
+
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`*` — multiply numbers.** For example, `6 * 4` gives `24`. Python uses `*`, rather than the multiplication sign you may use on paper.
+- **`+` — add numbers.** For example, `8 + 4` gives `12`. Make sure the values are numbers: joining text works differently.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Dollars and cents are two ways of describing the same amount of money. Would using one unit while doing the calculation make things easier? Remember that the final answer needs both parts again.
+    Treat each type of hole as its own group. The adjustment already has a sign, so a negative adjustment should reduce the score.
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on working with numbers](https://snakify.org/lessons/integer_float_numbers/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/integer_float_numbers/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on entering and displaying information](https://snakify.org/lessons/print_input_numbers/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/print_input_numbers/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 16: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -57,28 +59,13 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>10</code><br><code>15</code><br><code>2</code></td>
-        <td><code>20 30</code></td>
+        <td><code>6</code><br><code>10</code><br><code>2</code><br><code>-2</code></td>
+        <td><code>The Standard Scratch for the course is:</code><br><code>66</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>2</code><br><code>50</code><br><code>4</code></td>
-        <td><code>10 0</code></td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td><code>3000</code><br><code>99</code><br><code>3000</code></td>
-        <td><code>9002970 0</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>2029</code><br><code>34</code><br><code>1848</code></td>
-        <td><code>3750220 32</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>1886</code><br><code>73</code><br><code>295</code></td>
-        <td><code>556585 35</code></td>
+        <td><code>6</code><br><code>6</code><br><code>6</code><br><code>0</code></td>
+        <td><code>The Standard Scratch for the course is:</code><br><code>72</code></td>
       </tr>
     </tbody>
   </table>

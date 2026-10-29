@@ -1,33 +1,44 @@
-# Count equal numbers
+# 24-hour digital clock
 
 ## Your task
 
 Write a Python program for this task.
 
-Read three numbers and work out how many of them are the same.
+Find the time on a 24-hour clock after a number of minutes since midnight. The clock returns to midnight after each complete day.
 
 ## What to enter
 
-Three whole numbers; negative numbers and zero are allowed. Type each number on a new line, pressing Enter after each one.
+One whole number, zero or greater: elapsed minutes. Values may exceed 1439. Type each number on a new line, pressing Enter after each one.
 
 ## What your program should show
 
-One whole number: `3` if all are equal, `2` if exactly two are equal, or `0` if all are different.
+Two whole numbers on one line separated by one space: hour (0–23), then minute within that hour (0–59). Do not put a zero before a one-digit number, and do not use a colon (:).
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Python tools you may need
+
+These are tools you can use, rather than the steps for solving the task. The small examples use different information from the challenge.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`int()` — turn text into a whole number.** For example, `int("12")` gives the number `12`, which you can use in calculations.
+- **Variables — keep information for later.** For example, `score = 8` stores a value using the name `score`. A single `=` stores a value; it does not compare two values.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`//` — whole-number division.** It tells you how many complete groups fit when sharing positive amounts. For example, `17 // 5` gives `3`.
+- **`%` — remainder, also called modulo.** It tells you what is left after division. For example, `17 % 5` gives `2`.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Read the three possible outputs before planning your decisions. All three values being the same is a different situation from only two matching. Check that one situation cannot accidentally receive two answers.
+    Separate the idea of complete hours from the minutes left within the current hour. Unlike the earlier elapsed-minutes challenge, the minutes shown on this clock never reach 60. What happens after a complete day?
 
 ## Need a hand?
 
 If you are stuck, try one of these help pages, then come back to your program.
 
-- [Read the lesson on making decisions with if, elif and else](https://snakify.org/lessons/if_then_else_conditions/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
+- [Read the lesson on working with numbers](https://snakify.org/lessons/integer_float_numbers/)
+- [Work through the same lesson one small step at a time](https://snakify.org/lessons/integer_float_numbers/steps/1/)
 
 If you are still unsure, ask your teacher to help you understand the task.
 
@@ -57,33 +68,28 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>10</code><br><code>5</code><br><code>10</code></td>
-        <td><code>2</code></td>
+        <td><code>150</code></td>
+        <td><code>2 30</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>17</code><br><code>17</code><br><code>-9</code></td>
-        <td><code>2</code></td>
+        <td><code>180</code></td>
+        <td><code>3 0</code></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>4</code><br><code>-82</code><br><code>-82</code></td>
-        <td><code>2</code></td>
+        <td><code>444</code></td>
+        <td><code>7 24</code></td>
       </tr>
       <tr>
         <th scope="row">4</th>
-        <td><code>5</code><br><code>2</code><br><code>4</code></td>
-        <td><code>0</code></td>
+        <td><code>1111</code></td>
+        <td><code>18 31</code></td>
       </tr>
       <tr>
         <th scope="row">5</th>
-        <td><code>-149</code><br><code>-146</code><br><code>-142</code></td>
-        <td><code>0</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>666</code><br><code>666</code><br><code>666</code></td>
-        <td><code>3</code></td>
+        <td><code>1439</code></td>
+        <td><code>23 59</code></td>
       </tr>
     </tbody>
   </table>

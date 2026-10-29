@@ -125,7 +125,6 @@ nav:
       - 'Challenge 5': 'python-challenges/tasks/Challenge 5.md'
       - 'Challenge 6': 'python-challenges/tasks/Challenge 6.md'
       - 'Challenge 7': 'python-challenges/tasks/Challenge 7.md'
-    - Working with Numbers:
       - 'Challenge 8': 'python-challenges/tasks/Challenge 8.md'
       - 'Challenge 9': 'python-challenges/tasks/Challenge 9.md'
       - 'Challenge 10': 'python-challenges/tasks/Challenge 10.md'
@@ -138,8 +137,8 @@ nav:
       - 'Challenge 17': 'python-challenges/tasks/Challenge 17.md'
       - 'Challenge 18': 'python-challenges/tasks/Challenge 18.md'
       - 'Challenge 19': 'python-challenges/tasks/Challenge 19.md'
+    - Working with Numbers:
       - 'Challenge 20': 'python-challenges/tasks/Challenge 20.md'
-    - Selection [If, Elif, Else]:
       - 'Challenge 21': 'python-challenges/tasks/Challenge 21.md'
       - 'Challenge 22': 'python-challenges/tasks/Challenge 22.md'
       - 'Challenge 23': 'python-challenges/tasks/Challenge 23.md'
@@ -152,6 +151,7 @@ nav:
       - 'Challenge 30': 'python-challenges/tasks/Challenge 30.md'
       - 'Challenge 31': 'python-challenges/tasks/Challenge 31.md'
       - 'Challenge 32': 'python-challenges/tasks/Challenge 32.md'
+    - Selection [If, Elif, Else]:
       - 'Challenge 33': 'python-challenges/tasks/Challenge 33.md'
       - 'Challenge 34': 'python-challenges/tasks/Challenge 34.md'
       - 'Challenge 35': 'python-challenges/tasks/Challenge 35.md'
@@ -164,10 +164,66 @@ nav:
       - 'Challenge 42': 'python-challenges/tasks/Challenge 42.md'
       - 'Challenge 43': 'python-challenges/tasks/Challenge 43.md'
       - 'Challenge 44': 'python-challenges/tasks/Challenge 44.md'
-    
-        
-    
-      
+      - 'Challenge 45': 'python-challenges/tasks/Challenge 45.md'
+      - 'Challenge 46': 'python-challenges/tasks/Challenge 46.md'
+      - 'Challenge 47': 'python-challenges/tasks/Challenge 47.md'
+      - 'Challenge 48': 'python-challenges/tasks/Challenge 48.md'
+      - 'Challenge 49': 'python-challenges/tasks/Challenge 49.md'
+      - 'Challenge 50': 'python-challenges/tasks/Challenge 50.md'
+      - 'Challenge 51': 'python-challenges/tasks/Challenge 51.md'
+      - 'Challenge 52': 'python-challenges/tasks/Challenge 52.md'
+      - 'Challenge 53': 'python-challenges/tasks/Challenge 53.md'
+      - 'Challenge 54': 'python-challenges/tasks/Challenge 54.md'
+      - 'Challenge 55': 'python-challenges/tasks/Challenge 55.md'
+      - 'Challenge 56': 'python-challenges/tasks/Challenge 56.md'
+      - 'Challenge 57': 'python-challenges/tasks/Challenge 57.md'
+      - 'Challenge 58': 'python-challenges/tasks/Challenge 58.md'
+      - 'Challenge 59': 'python-challenges/tasks/Challenge 59.md'
+      - 'Challenge 60': 'python-challenges/tasks/Challenge 60.md'
+      - 'Challenge 61': 'python-challenges/tasks/Challenge 61.md'
+      - 'Challenge 62': 'python-challenges/tasks/Challenge 62.md'
+      - 'Challenge 63': 'python-challenges/tasks/Challenge 63.md'
+      - 'Challenge 64': 'python-challenges/tasks/Challenge 64.md'
+    - Iteration:
+      - Fixed Loops:
+        - 'Challenge 65': 'python-challenges/tasks/Challenge 65.md'
+        - 'Challenge 66': 'python-challenges/tasks/Challenge 66.md'
+        - 'Challenge 67': 'python-challenges/tasks/Challenge 67.md'
+        - 'Challenge 68': 'python-challenges/tasks/Challenge 68.md'
+        - 'Challenge 69': 'python-challenges/tasks/Challenge 69.md'
+        - 'Challenge 70': 'python-challenges/tasks/Challenge 70.md'
+        - 'Challenge 71': 'python-challenges/tasks/Challenge 71.md'
+        - 'Challenge 72': 'python-challenges/tasks/Challenge 72.md'
+        - 'Challenge 73': 'python-challenges/tasks/Challenge 73.md'
+        - 'Challenge 74': 'python-challenges/tasks/Challenge 74.md'
+        - 'Challenge 75': 'python-challenges/tasks/Challenge 75.md'
+      - Conditional Loops:
+        - 'Challenge 76': 'python-challenges/tasks/Challenge 76.md'
+        - 'Challenge 77': 'python-challenges/tasks/Challenge 77.md'
+        - 'Challenge 78': 'python-challenges/tasks/Challenge 78.md'
+        - 'Challenge 79': 'python-challenges/tasks/Challenge 79.md'
+        - 'Challenge 80': 'python-challenges/tasks/Challenge 80.md'
+        - 'Challenge 81': 'python-challenges/tasks/Challenge 81.md'
+        - 'Challenge 82': 'python-challenges/tasks/Challenge 82.md'
+    - Arrays:
+      - 'Challenge 83': 'python-challenges/tasks/Challenge 83.md'
+      - 'Challenge 84': 'python-challenges/tasks/Challenge 84.md'
+      - 'Challenge 85': 'python-challenges/tasks/Challenge 85.md'
+      - 'Challenge 86': 'python-challenges/tasks/Challenge 86.md'
+      - 'Challenge 87': 'python-challenges/tasks/Challenge 87.md'
+      - 'Challenge 88': 'python-challenges/tasks/Challenge 88.md'
+      - 'Challenge 89': 'python-challenges/tasks/Challenge 89.md'
+    - Built-in Functions and String Tools:
+      - 'Challenge 90': 'python-challenges/tasks/Challenge 90.md'
+      - 'Challenge 91': 'python-challenges/tasks/Challenge 91.md'
+      - 'Challenge 92': 'python-challenges/tasks/Challenge 92.md'
+      - 'Challenge 93': 'python-challenges/tasks/Challenge 93.md'
+      - 'Challenge 94': 'python-challenges/tasks/Challenge 94.md'
+      - 'Challenge 95': 'python-challenges/tasks/Challenge 95.md'
+      - 'Challenge 96': 'python-challenges/tasks/Challenge 96.md'
+      - 'Challenge 97': 'python-challenges/tasks/Challenge 97.md'
+      - 'Challenge 98': 'python-challenges/tasks/Challenge 98.md'
+
 markdown_extensions:
       - admonition
       - pymdownx.details

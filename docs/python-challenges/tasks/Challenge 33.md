@@ -1,50 +1,49 @@
-# Black chessboard square
+# Advice please
 
 ## Your task
 
-Write a Python program for this task.
-
-Check whether a chessboard square is black. Rows and columns are numbered 1–8. Square (1, 1) is black. Colours alternate along every row and column.
+Ask whether someone wants advice. In this first version, give advice only when the entered response is the capital letter Y.
 
 ## What to enter
 
-Two whole numbers from 1 to 8: column, then row. Type each number on a new line, pressing Enter after each one.
+One line of text containing a response. Case matters in this version. Type each value on a separate line, pressing Enter after each one.
 
 ## What your program should show
 
-Show `YES` for black; `NO` for white.
+For `Y`, show `Always know where your towel is.` For any other response, show no output.
 
-Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+Only show the results and messages described above. Do not add input prompts; the tables below show the information to type.
 
-Use capital letters for these messages.
+## Python tools you may need
+
+Try the small examples first if a tool is new to you. These tools are not a finished solution.
+
+- **`input()` — read what someone types.** It gives you text, even when the person types digits.
+- **`print()` — show a result.** Each separate `print()` starts a new output line. To show two values on one line with a space between them, put a comma between them inside `print()`.
+- **`if` — do something only when a check is true.** End the heading with a colon and indent the action underneath it. If the check is false, that action is skipped.
+- **`==` and `!=` — compare values.** `==` asks whether two values are the same; `!=` asks whether they are different. Remember that `=` on its own stores a value.
 
 ## Hint
 
 ??? tip "Show a hint"
 
-    Draw a small part of the board, starting with a black square at (1, 1). Notice how the colour changes when you move one square across or one square up. Look for a repeating pattern in the coordinates.
+    This task has an action for only one response. You do not need to invent a second message for the other responses.
 
 ## Need a hand?
 
-If you are stuck, try one of these help pages, then come back to your program.
+If you get stuck, use a help page, then return to your program. Ask your teacher if you still need support.
 
-- [Read the lesson on making decisions with if, elif and else](https://snakify.org/lessons/if_then_else_conditions/)
-- [Work through the same lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
-
-If you are still unsure, ask your teacher to help you understand the task.
+- [Read the lesson on making decisions](https://snakify.org/lessons/if_then_else_conditions/)
+- [Work through the lesson one small step at a time](https://snakify.org/lessons/if_then_else_conditions/steps/1/)
 
 
 ## Try your program
 
-Use the tests below to check your program. You do not need to make up your own numbers.
-
 1. Run your program.
-2. Type the values in the middle column, one at a time. Press Enter after each line.
-3. Compare your result with the last column. It should match.
-4. If it matches, tick that test in your workbook. If it does not, check your code and try again.
-5. Run your program again for the next test.
-
-Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
+2. Type the values in the middle column, one per line. If it says no input is needed, just run the program.
+3. Compare your result with **You should see**. Keep the same line breaks.
+4. Tick the test in your workbook if it matches. If it does not, check your code and try again.
+5. Start the program again for the next test.
 
 <div class="challenge-table-scroll" role="region" aria-label="Challenge 33: test runs" tabindex="0">
   <table class="challenge-table challenge-table--tests">
@@ -59,93 +58,18 @@ Where a table cell has several lines, keep the same line breaks when typing or c
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><code>1</code><br><code>1</code></td>
-        <td><code>YES</code></td>
+        <td><code>Y</code></td>
+        <td><code>Always know where your towel is.</code></td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><code>1</code><br><code>2</code></td>
-        <td><code>NO</code></td>
+        <td><code>N</code></td>
+        <td><em>No output</em></td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td><code>1</code><br><code>3</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td><code>1</code><br><code>4</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><code>2</code><br><code>3</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td><code>2</code><br><code>4</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td><code>3</code><br><code>6</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td><code>3</code><br><code>7</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td><code>4</code><br><code>3</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">10</th>
-        <td><code>4</code><br><code>4</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">11</th>
-        <td><code>5</code><br><code>2</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">12</th>
-        <td><code>5</code><br><code>3</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">13</th>
-        <td><code>6</code><br><code>5</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">14</th>
-        <td><code>6</code><br><code>6</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">15</th>
-        <td><code>7</code><br><code>1</code></td>
-        <td><code>YES</code></td>
-      </tr>
-      <tr>
-        <th scope="row">16</th>
-        <td><code>7</code><br><code>2</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">17</th>
-        <td><code>8</code><br><code>3</code></td>
-        <td><code>NO</code></td>
-      </tr>
-      <tr>
-        <th scope="row">18</th>
-        <td><code>8</code><br><code>4</code></td>
-        <td><code>YES</code></td>
+        <td><code>y</code></td>
+        <td><em>No output</em></td>
       </tr>
     </tbody>
   </table>
