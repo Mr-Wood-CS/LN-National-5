@@ -1,4 +1,4 @@
-# Challenge 9: Swap two digits
+# Swap two digits
 
 ## Your task
 
@@ -15,6 +15,12 @@ One whole number from 10 to 99 (including both ends). Type each number on a new 
 One whole number: the reversed value. Do not keep a zero at the start when the original units digit is zero.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Write the two digits in separate boxes, then imagine swapping the boxes. Remember that a digit's position changes its value. Check what the task says about a zero at the start.
 
 ## Need a hand?
 
@@ -38,10 +44,42 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>79</code> | <code>97</code> |
-| 2 | <code>48</code> | <code>84</code> |
-| 3 | <code>22</code> | <code>22</code> |
-| 4 | <code>17</code> | <code>71</code> |
-| 5 | <code>36</code> | <code>63</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 9: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 9: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>79</code></td>
+        <td><code>97</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>48</code></td>
+        <td><code>84</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>22</code></td>
+        <td><code>22</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>17</code></td>
+        <td><code>71</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>36</code></td>
+        <td><code>63</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

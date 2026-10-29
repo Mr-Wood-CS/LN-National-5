@@ -1,4 +1,4 @@
-# Challenge 17: Day of the week
+# Day of the week
 
 ## Your task
 
@@ -15,6 +15,12 @@ One whole number from 1 to 365 (including both ends): day number in the year. Ty
 One weekday number: Sunday 0, Monday 1, Tuesday 2, Wednesday 3, Thursday 4, Friday 5, Saturday 6.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Write the weekday numbers in a repeating row, starting from Thursday for day 1. Follow what happens when you pass Saturday. Be careful: the day-of-year count starts at 1, while the weekday numbers include 0.
 
 ## Need a hand?
 
@@ -38,15 +44,67 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>1</code> | <code>4</code> |
-| 2 | <code>2</code> | <code>5</code> |
-| 3 | <code>3</code> | <code>6</code> |
-| 4 | <code>4</code> | <code>0</code> |
-| 5 | <code>5</code> | <code>1</code> |
-| 6 | <code>50</code> | <code>4</code> |
-| 7 | <code>100</code> | <code>5</code> |
-| 8 | <code>200</code> | <code>0</code> |
-| 9 | <code>300</code> | <code>2</code> |
-| 10 | <code>365</code> | <code>4</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 17: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 17: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>1</code></td>
+        <td><code>4</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>2</code></td>
+        <td><code>5</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>3</code></td>
+        <td><code>6</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>4</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>5</code></td>
+        <td><code>1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>50</code></td>
+        <td><code>4</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>100</code></td>
+        <td><code>5</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>200</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td><code>300</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td><code>365</code></td>
+        <td><code>4</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,4 +1,4 @@
-# Challenge 19: Clock-hand angle
+# Clock-hand angle
 
 ## Your task
 
@@ -15,6 +15,12 @@ One whole number from 0 to 359: the hour hand's angle in degrees. Zero means the
 One whole number: minute hand angle from 0 to 359 degrees. At the start of an hour its angle is zero. Do not print a degree symbol.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Sketch both hands at the start of an hour and part-way through the next hour. The hour hand moves slowly between the hour marks. The minute hand's position depends on how far through the current hour you are, rather than how many whole hours have passed.
 
 ## Need a hand?
 
@@ -38,20 +44,92 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>190</code> | <code>120</code> |
-| 2 | <code>0</code> | <code>0</code> |
-| 3 | <code>5</code> | <code>60</code> |
-| 4 | <code>10</code> | <code>120</code> |
-| 5 | <code>15</code> | <code>180</code> |
-| 6 | <code>20</code> | <code>240</code> |
-| 7 | <code>25</code> | <code>300</code> |
-| 8 | <code>29</code> | <code>348</code> |
-| 9 | <code>30</code> | <code>0</code> |
-| 10 | <code>31</code> | <code>12</code> |
-| 11 | <code>40</code> | <code>120</code> |
-| 12 | <code>59</code> | <code>348</code> |
-| 13 | <code>300</code> | <code>0</code> |
-| 14 | <code>359</code> | <code>348</code> |
-| 15 | <code>1</code> | <code>12</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 19: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 19: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>190</code></td>
+        <td><code>120</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>0</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>5</code></td>
+        <td><code>60</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>10</code></td>
+        <td><code>120</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>15</code></td>
+        <td><code>180</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>20</code></td>
+        <td><code>240</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>25</code></td>
+        <td><code>300</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>29</code></td>
+        <td><code>348</code></td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td><code>30</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td><code>31</code></td>
+        <td><code>12</code></td>
+      </tr>
+      <tr>
+        <th scope="row">11</th>
+        <td><code>40</code></td>
+        <td><code>120</code></td>
+      </tr>
+      <tr>
+        <th scope="row">12</th>
+        <td><code>59</code></td>
+        <td><code>348</code></td>
+      </tr>
+      <tr>
+        <th scope="row">13</th>
+        <td><code>300</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">14</th>
+        <td><code>359</code></td>
+        <td><code>348</code></td>
+      </tr>
+      <tr>
+        <th scope="row">15</th>
+        <td><code>1</code></td>
+        <td><code>12</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

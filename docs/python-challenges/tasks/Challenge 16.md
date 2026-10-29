@@ -1,4 +1,4 @@
-# Challenge 16: Total cupcake cost
+# Total cupcake cost
 
 ## Your task
 
@@ -15,6 +15,12 @@ Three whole numbers: dollars per cupcake (at least 0), cents per cupcake (0–99
 Two whole numbers on one line separated by one space: total whole dollars, then remaining cents (0–99). Do not add a dollar sign or put a zero before a one-digit cents amount.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Dollars and cents are two ways of describing the same amount of money. Would using one unit while doing the calculation make things easier? Remember that the final answer needs both parts again.
 
 ## Need a hand?
 
@@ -38,10 +44,42 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>10</code><br><code>15</code><br><code>2</code> | <code>20 30</code> |
-| 2 | <code>2</code><br><code>50</code><br><code>4</code> | <code>10 0</code> |
-| 3 | <code>3000</code><br><code>99</code><br><code>3000</code> | <code>9002970 0</code> |
-| 4 | <code>2029</code><br><code>34</code><br><code>1848</code> | <code>3750220 32</code> |
-| 5 | <code>1886</code><br><code>73</code><br><code>295</code> | <code>556585 35</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 16: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 16: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>10</code><br><code>15</code><br><code>2</code></td>
+        <td><code>20 30</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>2</code><br><code>50</code><br><code>4</code></td>
+        <td><code>10 0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>3000</code><br><code>99</code><br><code>3000</code></td>
+        <td><code>9002970 0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>2029</code><br><code>34</code><br><code>1848</code></td>
+        <td><code>3750220 32</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>1886</code><br><code>73</code><br><code>295</code></td>
+        <td><code>556585 35</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

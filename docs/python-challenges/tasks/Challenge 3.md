@@ -1,4 +1,4 @@
-# Challenge 3: Personal greeting
+# Personal greeting
 
 ## Your task
 
@@ -15,6 +15,12 @@ One line of text containing the complete name; preserve spelling and capitalisat
 One line in the format `Hello, NAME!`, replacing NAME with the name entered. Include one space after the comma and none before the exclamation mark.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Write the greeting on paper with a blank space for the name. Look carefully at where the comma, space and exclamation mark belong. The name might contain a space of its own.
 
 ## Need a hand?
 
@@ -38,8 +44,32 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>Harry</code> | <code>Hello, Harry!</code> |
-| 2 | <code>Mr. Potter</code> | <code>Hello, Mr. Potter!</code> |
-| 3 | <code>Lord Voldemort</code> | <code>Hello, Lord Voldemort!</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 3: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 3: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>Harry</code></td>
+        <td><code>Hello, Harry!</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>Mr. Potter</code></td>
+        <td><code>Hello, Mr. Potter!</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>Lord Voldemort</code></td>
+        <td><code>Hello, Lord Voldemort!</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,4 +1,4 @@
-# Challenge 31: Position of the different number
+# Position of the different number
 
 ## Your task
 
@@ -15,6 +15,12 @@ Three whole numbers: exactly two are equal and the other is different. Type each
 One whole number: `1`, `2` or `3`, indicating the different value's position in the order you entered them. Positions start at 1.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    The answer is a position, not the value of the different number. Compare where the matching pair appears, then think about which position is left out.
 
 ## Need a hand?
 
@@ -38,14 +44,62 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>10</code><br><code>5</code><br><code>10</code> | <code>2</code> |
-| 2 | <code>10</code><br><code>10</code><br><code>5</code> | <code>3</code> |
-| 3 | <code>5</code><br><code>10</code><br><code>10</code> | <code>1</code> |
-| 4 | <code>3</code><br><code>7</code><br><code>7</code> | <code>1</code> |
-| 5 | <code>6</code><br><code>19</code><br><code>6</code> | <code>2</code> |
-| 6 | <code>14</code><br><code>14</code><br><code>22</code> | <code>3</code> |
-| 7 | <code>90</code><br><code>75</code><br><code>75</code> | <code>1</code> |
-| 8 | <code>54</code><br><code>32</code><br><code>54</code> | <code>2</code> |
-| 9 | <code>1</code><br><code>1</code><br><code>0</code> | <code>3</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 31: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 31: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>10</code><br><code>5</code><br><code>10</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>10</code><br><code>10</code><br><code>5</code></td>
+        <td><code>3</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>5</code><br><code>10</code><br><code>10</code></td>
+        <td><code>1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>3</code><br><code>7</code><br><code>7</code></td>
+        <td><code>1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>6</code><br><code>19</code><br><code>6</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>14</code><br><code>14</code><br><code>22</code></td>
+        <td><code>3</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>90</code><br><code>75</code><br><code>75</code></td>
+        <td><code>1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>54</code><br><code>32</code><br><code>54</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td><code>1</code><br><code>1</code><br><code>0</code></td>
+        <td><code>3</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,4 +1,4 @@
-# Challenge 44: Sort three numbers
+# Sort three numbers
 
 ## Your task
 
@@ -15,6 +15,12 @@ Three whole numbers; negative numbers, zero and repeated numbers are allowed. Ty
 Three whole numbers on separate lines in ascending order. Keep any repeated numbers. If two numbers are equal, show both of them.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    You must keep all three entered numbers, including any repeats. Think about which value belongs first, which belongs last and which is left for the middle. Choosing only the smallest value will not finish this task.
 
 ## Need a hand?
 
@@ -38,13 +44,57 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>5</code><br><code>3</code><br><code>7</code> | <code>3</code><br><code>5</code><br><code>7</code> |
-| 2 | <code>9</code><br><code>6</code><br><code>1</code> | <code>1</code><br><code>6</code><br><code>9</code> |
-| 3 | <code>10</code><br><code>20</code><br><code>30</code> | <code>10</code><br><code>20</code><br><code>30</code> |
-| 4 | <code>60</code><br><code>0</code><br><code>80</code> | <code>0</code><br><code>60</code><br><code>80</code> |
-| 5 | <code>50</code><br><code>20</code><br><code>40</code> | <code>20</code><br><code>40</code><br><code>50</code> |
-| 6 | <code>400</code><br><code>700</code><br><code>550</code> | <code>400</code><br><code>550</code><br><code>700</code> |
-| 7 | <code>29</code><br><code>320</code><br><code>100</code> | <code>29</code><br><code>100</code><br><code>320</code> |
-| 8 | <code>92</code><br><code>1</code><br><code>23</code> | <code>1</code><br><code>23</code><br><code>92</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 44: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 44: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>5</code><br><code>3</code><br><code>7</code></td>
+        <td><code>3</code><br><code>5</code><br><code>7</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>9</code><br><code>6</code><br><code>1</code></td>
+        <td><code>1</code><br><code>6</code><br><code>9</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>10</code><br><code>20</code><br><code>30</code></td>
+        <td><code>10</code><br><code>20</code><br><code>30</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>60</code><br><code>0</code><br><code>80</code></td>
+        <td><code>0</code><br><code>60</code><br><code>80</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>50</code><br><code>20</code><br><code>40</code></td>
+        <td><code>20</code><br><code>40</code><br><code>50</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>400</code><br><code>700</code><br><code>550</code></td>
+        <td><code>400</code><br><code>550</code><br><code>700</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>29</code><br><code>320</code><br><code>100</code></td>
+        <td><code>29</code><br><code>100</code><br><code>320</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>92</code><br><code>1</code><br><code>23</code></td>
+        <td><code>1</code><br><code>23</code><br><code>92</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

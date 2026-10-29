@@ -1,4 +1,4 @@
-# Challenge 34: Matching chessboard colours
+# Matching chessboard colours
 
 ## Your task
 
@@ -17,6 +17,12 @@ Show `YES` for the same colour; otherwise `NO`.
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
 
 Use capital letters for these messages.
+
+## Hint
+
+??? tip "Show a hint"
+
+    First think about how you recognised a square's colour in the previous challenge. Now you need to compare two colours. Two different squares can still have the same colour.
 
 ## Need a hand?
 
@@ -40,17 +46,77 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>1</code><br><code>1</code><br><code>2</code><br><code>6</code> | <code>YES</code> |
-| 2 | <code>2</code><br><code>2</code><br><code>2</code><br><code>5</code> | <code>NO</code> |
-| 3 | <code>2</code><br><code>2</code><br><code>2</code><br><code>4</code> | <code>YES</code> |
-| 4 | <code>2</code><br><code>3</code><br><code>3</code><br><code>2</code> | <code>YES</code> |
-| 5 | <code>2</code><br><code>3</code><br><code>7</code><br><code>8</code> | <code>YES</code> |
-| 6 | <code>2</code><br><code>3</code><br><code>8</code><br><code>8</code> | <code>NO</code> |
-| 7 | <code>5</code><br><code>7</code><br><code>5</code><br><code>7</code> | <code>YES</code> |
-| 8 | <code>2</code><br><code>6</code><br><code>3</code><br><code>1</code> | <code>YES</code> |
-| 9 | <code>2</code><br><code>3</code><br><code>4</code><br><code>5</code> | <code>YES</code> |
-| 10 | <code>2</code><br><code>3</code><br><code>4</code><br><code>6</code> | <code>NO</code> |
-| 11 | <code>7</code><br><code>2</code><br><code>2</code><br><code>3</code> | <code>YES</code> |
-| 12 | <code>1</code><br><code>6</code><br><code>7</code><br><code>2</code> | <code>YES</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 34: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 34: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>1</code><br><code>1</code><br><code>2</code><br><code>6</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>2</code><br><code>2</code><br><code>2</code><br><code>5</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>2</code><br><code>2</code><br><code>2</code><br><code>4</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>2</code><br><code>3</code><br><code>3</code><br><code>2</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>2</code><br><code>3</code><br><code>7</code><br><code>8</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>2</code><br><code>3</code><br><code>8</code><br><code>8</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>5</code><br><code>7</code><br><code>5</code><br><code>7</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>2</code><br><code>6</code><br><code>3</code><br><code>1</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td><code>2</code><br><code>3</code><br><code>4</code><br><code>5</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td><code>2</code><br><code>3</code><br><code>4</code><br><code>6</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">11</th>
+        <td><code>7</code><br><code>2</code><br><code>2</code><br><code>3</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">12</th>
+        <td><code>1</code><br><code>6</code><br><code>7</code><br><code>2</code></td>
+        <td><code>YES</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

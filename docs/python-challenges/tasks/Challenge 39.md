@@ -1,4 +1,4 @@
-# Challenge 39: Leap year
+# Leap year
 
 ## Your task
 
@@ -17,6 +17,12 @@ Show `LEAP` for a leap year; otherwise `COMMON`.
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
 
 Use capital letters for these messages.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Some calendar rules describe special cases of other rules. Think about years that end in two zeros before settling on your decision order. A year being divisible by 4 is not the only thing you need to consider.
 
 ## Need a hand?
 
@@ -40,14 +46,62 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>2012</code> | <code>LEAP</code> |
-| 2 | <code>2011</code> | <code>COMMON</code> |
-| 3 | <code>1492</code> | <code>LEAP</code> |
-| 4 | <code>1861</code> | <code>COMMON</code> |
-| 5 | <code>1600</code> | <code>LEAP</code> |
-| 6 | <code>1700</code> | <code>COMMON</code> |
-| 7 | <code>1800</code> | <code>COMMON</code> |
-| 8 | <code>1900</code> | <code>COMMON</code> |
-| 9 | <code>2000</code> | <code>LEAP</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 39: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 39: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>2012</code></td>
+        <td><code>LEAP</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>2011</code></td>
+        <td><code>COMMON</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>1492</code></td>
+        <td><code>LEAP</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>1861</code></td>
+        <td><code>COMMON</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>1600</code></td>
+        <td><code>LEAP</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>1700</code></td>
+        <td><code>COMMON</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>1800</code></td>
+        <td><code>COMMON</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>1900</code></td>
+        <td><code>COMMON</code></td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td><code>2000</code></td>
+        <td><code>LEAP</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

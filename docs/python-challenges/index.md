@@ -29,50 +29,193 @@ Practise your Python skills with these 44 challenges. Start at Challenge 1 and w
 
 ## Challenge list
 
-| Challenge | Topic |
-| --- | --- |
-| [Challenge 1](tasks/Challenge%201.md) | Sum of three numbers |
-| [Challenge 2](tasks/Challenge%202.md) | Area of a right-angled triangle |
-| [Challenge 3](tasks/Challenge%203.md) | Personal greeting |
-| [Challenge 4](tasks/Challenge%204.md) | Previous and next numbers |
-| [Challenge 5](tasks/Challenge%205.md) | Sharing apples |
-| [Challenge 6](tasks/Challenge%206.md) | Elapsed hours and minutes |
-| [Challenge 7](tasks/Challenge%207.md) | Time between two timestamps |
-| [Challenge 8](tasks/Challenge%208.md) | Separate two digits |
-| [Challenge 9](tasks/Challenge%209.md) | Swap two digits |
-| [Challenge 10](tasks/Challenge%2010.md) | Last two digits |
-| [Challenge 11](tasks/Challenge%2011.md) | Tens digit |
-| [Challenge 12](tasks/Challenge%2012.md) | Sum of three digits |
-| [Challenge 13](tasks/Challenge%2013.md) | First digit after the decimal point |
-| [Challenge 14](tasks/Challenge%2014.md) | Days needed for a journey |
-| [Challenge 15](tasks/Challenge%2015.md) | Century of a year |
-| [Challenge 16](tasks/Challenge%2016.md) | Total cupcake cost |
-| [Challenge 17](tasks/Challenge%2017.md) | Day of the week |
-| [Challenge 18](tasks/Challenge%2018.md) | 24-hour digital clock |
-| [Challenge 19](tasks/Challenge%2019.md) | Clock-hand angle |
-| [Challenge 20](tasks/Challenge%2020.md) | Desks for three classrooms |
-| [Challenge 21](tasks/Challenge%2021.md) | Odd or even |
-| [Challenge 22](tasks/Challenge%2022.md) | Smallest of two numbers |
-| [Challenge 23](tasks/Challenge%2023.md) | Sign of a number |
-| [Challenge 24](tasks/Challenge%2024.md) | Three-digit number |
-| [Challenge 25](tasks/Challenge%2025.md) | Exactly one positive number |
-| [Challenge 26](tasks/Challenge%2026.md) | Digits in ascending order |
-| [Challenge 27](tasks/Challenge%2027.md) | Four-digit palindrome |
-| [Challenge 28](tasks/Challenge%2028.md) | Smallest of three numbers |
-| [Challenge 29](tasks/Challenge%2029.md) | Days in a month |
-| [Challenge 30](tasks/Challenge%2030.md) | Count equal numbers |
-| [Challenge 31](tasks/Challenge%2031.md) | Position of the different number |
-| [Challenge 32](tasks/Challenge%2032.md) | Rook move |
-| [Challenge 33](tasks/Challenge%2033.md) | Black chessboard square |
-| [Challenge 34](tasks/Challenge%2034.md) | Matching chessboard colours |
-| [Challenge 35](tasks/Challenge%2035.md) | King move |
-| [Challenge 36](tasks/Challenge%2036.md) | Bishop move |
-| [Challenge 37](tasks/Challenge%2037.md) | Queen move |
-| [Challenge 38](tasks/Challenge%2038.md) | Knight move |
-| [Challenge 39](tasks/Challenge%2039.md) | Leap year |
-| [Challenge 40](tasks/Challenge%2040.md) | Next calendar day |
-| [Challenge 41](tasks/Challenge%2041.md) | Integer root of a linear equation |
-| [Challenge 42](tasks/Challenge%2042.md) | Smallest of five numbers |
-| [Challenge 43](tasks/Challenge%2043.md) | Missing corner of a rectangle |
-| [Challenge 44](tasks/Challenge%2044.md) | Sort three numbers |
-
+<div class="challenge-table-scroll" role="region" aria-label="Choose a Python challenge" tabindex="0">
+  <table class="challenge-table challenge-table--index">
+    <caption>Choose a Python challenge</caption>
+    <thead>
+      <tr>
+        <th scope="col">Challenge</th>
+        <th scope="col">Topic</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%201/">Challenge 1</a></th>
+        <td>Sum of three numbers</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%202/">Challenge 2</a></th>
+        <td>Area of a right-angled triangle</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%203/">Challenge 3</a></th>
+        <td>Personal greeting</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%204/">Challenge 4</a></th>
+        <td>Previous and next numbers</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%205/">Challenge 5</a></th>
+        <td>Sharing apples</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%206/">Challenge 6</a></th>
+        <td>Elapsed hours and minutes</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%207/">Challenge 7</a></th>
+        <td>Time between two timestamps</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%208/">Challenge 8</a></th>
+        <td>Separate two digits</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%209/">Challenge 9</a></th>
+        <td>Swap two digits</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2010/">Challenge 10</a></th>
+        <td>Last two digits</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2011/">Challenge 11</a></th>
+        <td>Tens digit</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2012/">Challenge 12</a></th>
+        <td>Sum of three digits</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2013/">Challenge 13</a></th>
+        <td>First digit after the decimal point</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2014/">Challenge 14</a></th>
+        <td>Days needed for a journey</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2015/">Challenge 15</a></th>
+        <td>Century of a year</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2016/">Challenge 16</a></th>
+        <td>Total cupcake cost</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2017/">Challenge 17</a></th>
+        <td>Day of the week</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2018/">Challenge 18</a></th>
+        <td>24-hour digital clock</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2019/">Challenge 19</a></th>
+        <td>Clock-hand angle</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2020/">Challenge 20</a></th>
+        <td>Desks for three classrooms</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2021/">Challenge 21</a></th>
+        <td>Odd or even</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2022/">Challenge 22</a></th>
+        <td>Smallest of two numbers</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2023/">Challenge 23</a></th>
+        <td>Sign of a number</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2024/">Challenge 24</a></th>
+        <td>Three-digit number</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2025/">Challenge 25</a></th>
+        <td>Exactly one positive number</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2026/">Challenge 26</a></th>
+        <td>Digits in ascending order</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2027/">Challenge 27</a></th>
+        <td>Four-digit palindrome</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2028/">Challenge 28</a></th>
+        <td>Smallest of three numbers</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2029/">Challenge 29</a></th>
+        <td>Days in a month</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2030/">Challenge 30</a></th>
+        <td>Count equal numbers</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2031/">Challenge 31</a></th>
+        <td>Position of the different number</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2032/">Challenge 32</a></th>
+        <td>Rook move</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2033/">Challenge 33</a></th>
+        <td>Black chessboard square</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2034/">Challenge 34</a></th>
+        <td>Matching chessboard colours</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2035/">Challenge 35</a></th>
+        <td>King move</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2036/">Challenge 36</a></th>
+        <td>Bishop move</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2037/">Challenge 37</a></th>
+        <td>Queen move</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2038/">Challenge 38</a></th>
+        <td>Knight move</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2039/">Challenge 39</a></th>
+        <td>Leap year</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2040/">Challenge 40</a></th>
+        <td>Next calendar day</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2041/">Challenge 41</a></th>
+        <td>Integer root of a linear equation</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2042/">Challenge 42</a></th>
+        <td>Smallest of five numbers</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2043/">Challenge 43</a></th>
+        <td>Missing corner of a rectangle</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="tasks/Challenge%2044/">Challenge 44</a></th>
+        <td>Sort three numbers</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

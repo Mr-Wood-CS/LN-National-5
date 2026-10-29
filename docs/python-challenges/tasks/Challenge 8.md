@@ -1,4 +1,4 @@
-# Challenge 8: Separate two digits
+# Separate two digits
 
 ## Your task
 
@@ -15,6 +15,12 @@ One whole number from 10 to 99 (including both ends). Type each number on a new 
 Tens digit then units digit, on one line separated by one space.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Write the number under two headings: tens and units. What is the value of each digit's position? Think about division and what can be left over.
 
 ## Need a hand?
 
@@ -38,12 +44,52 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>79</code> | <code>7 9</code> |
-| 2 | <code>40</code> | <code>4 0</code> |
-| 3 | <code>11</code> | <code>1 1</code> |
-| 4 | <code>22</code> | <code>2 2</code> |
-| 5 | <code>93</code> | <code>9 3</code> |
-| 6 | <code>74</code> | <code>7 4</code> |
-| 7 | <code>54</code> | <code>5 4</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 8: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 8: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>79</code></td>
+        <td><code>7 9</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>40</code></td>
+        <td><code>4 0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>11</code></td>
+        <td><code>1 1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>22</code></td>
+        <td><code>2 2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>93</code></td>
+        <td><code>9 3</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>74</code></td>
+        <td><code>7 4</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>54</code></td>
+        <td><code>5 4</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

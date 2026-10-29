@@ -1,4 +1,4 @@
-# Challenge 23: Sign of a number
+# Sign of a number
 
 ## Your task
 
@@ -15,6 +15,12 @@ One whole number. Type each number on a new line, pressing Enter after each one.
 One whole number: `1` for positive, `-1` for negative, or `0` for zero.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Zero separates negative numbers from positive numbers on a number line. There are three possible messages for this task, so make sure your plan gives zero a place of its own.
 
 ## Need a hand?
 
@@ -38,10 +44,42 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>179</code> | <code>1</code> |
-| 2 | <code>-42</code> | <code>-1</code> |
-| 3 | <code>0</code> | <code>0</code> |
-| 4 | <code>17</code> | <code>1</code> |
-| 5 | <code>-100</code> | <code>-1</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 23: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 23: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>179</code></td>
+        <td><code>1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>-42</code></td>
+        <td><code>-1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>0</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>17</code></td>
+        <td><code>1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>-100</code></td>
+        <td><code>-1</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,4 +1,4 @@
-# Challenge 13: First digit after the decimal point
+# First digit after the decimal point
 
 ## Your task
 
@@ -15,6 +15,12 @@ One positive number. It can be a whole number or a decimal. Use a full stop for 
 One digit: the first digit after the decimal point. Do not round the number. If you enter a whole number with no decimal point, show `0`.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Point to the first position after the decimal point. Later digits must not change your answer, so rounding would cause a problem. What should happen when there is no decimal part?
 
 ## Need a hand?
 
@@ -38,12 +44,52 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>1.79</code> | <code>7</code> |
-| 2 | <code>10.34</code> | <code>3</code> |
-| 3 | <code>0.001</code> | <code>0</code> |
-| 4 | <code>179</code> | <code>0</code> |
-| 5 | <code>19.99</code> | <code>9</code> |
-| 6 | <code>179.12</code> | <code>1</code> |
-| 7 | <code>5.29</code> | <code>2</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 13: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 13: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>1.79</code></td>
+        <td><code>7</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>10.34</code></td>
+        <td><code>3</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>0.001</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>179</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>19.99</code></td>
+        <td><code>9</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>179.12</code></td>
+        <td><code>1</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>5.29</code></td>
+        <td><code>2</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

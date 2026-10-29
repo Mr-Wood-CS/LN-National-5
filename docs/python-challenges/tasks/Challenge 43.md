@@ -1,4 +1,4 @@
-# Challenge 43: Missing corner of a rectangle
+# Missing corner of a rectangle
 
 ## Your task
 
@@ -15,6 +15,12 @@ Six whole numbers: x then y for the first corner, then x and y for the second an
 Missing corner's x coordinate on the first line and y coordinate on the second line.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Sketch a rectangle and label the coordinates of its corners. A vertical side joins corners with the same x position; a horizontal side joins corners with the same y position. Look at the x positions separately from the y positions.
 
 ## Need a hand?
 
@@ -38,13 +44,57 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>1</code><br><code>5</code><br><code>7</code><br><code>5</code><br><code>1</code><br><code>10</code> | <code>7</code><br><code>10</code> |
-| 2 | <code>1</code><br><code>5</code><br><code>7</code><br><code>10</code><br><code>1</code><br><code>10</code> | <code>7</code><br><code>5</code> |
-| 3 | <code>7</code><br><code>5</code><br><code>1</code><br><code>10</code><br><code>7</code><br><code>10</code> | <code>1</code><br><code>5</code> |
-| 4 | <code>1</code><br><code>10</code><br><code>7</code><br><code>5</code><br><code>7</code><br><code>10</code> | <code>1</code><br><code>5</code> |
-| 5 | <code>50</code><br><code>100</code><br><code>50</code><br><code>200</code><br><code>20</code><br><code>200</code> | <code>20</code><br><code>100</code> |
-| 6 | <code>20</code><br><code>100</code><br><code>20</code><br><code>200</code><br><code>50</code><br><code>200</code> | <code>50</code><br><code>100</code> |
-| 7 | <code>50</code><br><code>100</code><br><code>20</code><br><code>100</code><br><code>50</code><br><code>200</code> | <code>20</code><br><code>200</code> |
-| 8 | <code>50</code><br><code>100</code><br><code>20</code><br><code>200</code><br><code>20</code><br><code>100</code> | <code>50</code><br><code>200</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 43: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 43: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>1</code><br><code>5</code><br><code>7</code><br><code>5</code><br><code>1</code><br><code>10</code></td>
+        <td><code>7</code><br><code>10</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>1</code><br><code>5</code><br><code>7</code><br><code>10</code><br><code>1</code><br><code>10</code></td>
+        <td><code>7</code><br><code>5</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>7</code><br><code>5</code><br><code>1</code><br><code>10</code><br><code>7</code><br><code>10</code></td>
+        <td><code>1</code><br><code>5</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>1</code><br><code>10</code><br><code>7</code><br><code>5</code><br><code>7</code><br><code>10</code></td>
+        <td><code>1</code><br><code>5</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>50</code><br><code>100</code><br><code>50</code><br><code>200</code><br><code>20</code><br><code>200</code></td>
+        <td><code>20</code><br><code>100</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>20</code><br><code>100</code><br><code>20</code><br><code>200</code><br><code>50</code><br><code>200</code></td>
+        <td><code>50</code><br><code>100</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>50</code><br><code>100</code><br><code>20</code><br><code>100</code><br><code>50</code><br><code>200</code></td>
+        <td><code>20</code><br><code>200</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>50</code><br><code>100</code><br><code>20</code><br><code>200</code><br><code>20</code><br><code>100</code></td>
+        <td><code>50</code><br><code>200</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,4 +1,4 @@
-# Challenge 14: Days needed for a journey
+# Days needed for a journey
 
 ## Your task
 
@@ -15,6 +15,12 @@ Two whole numbers: maximum kilometres per day (at least 1), then journey kilomet
 One whole number: minimum days. A zero-distance journey needs zero days.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Think about full travelling days and whether any distance remains afterwards. An unfinished journey still needs another day, even if that final day is short. Compare a journey that fits exactly with one that goes a little further.
 
 ## Need a hand?
 
@@ -38,14 +44,62 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>700</code><br><code>750</code> | <code>2</code> |
-| 2 | <code>700</code><br><code>2100</code> | <code>3</code> |
-| 3 | <code>10</code><br><code>15</code> | <code>2</code> |
-| 4 | <code>10</code><br><code>19</code> | <code>2</code> |
-| 5 | <code>10</code><br><code>70</code> | <code>7</code> |
-| 6 | <code>10</code><br><code>81</code> | <code>9</code> |
-| 7 | <code>10</code><br><code>1000</code> | <code>100</code> |
-| 8 | <code>10</code><br><code>1001</code> | <code>101</code> |
-| 9 | <code>10</code><br><code>999</code> | <code>100</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 14: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 14: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>700</code><br><code>750</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>700</code><br><code>2100</code></td>
+        <td><code>3</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>10</code><br><code>15</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>10</code><br><code>19</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>10</code><br><code>70</code></td>
+        <td><code>7</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>10</code><br><code>81</code></td>
+        <td><code>9</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>10</code><br><code>1000</code></td>
+        <td><code>100</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>10</code><br><code>1001</code></td>
+        <td><code>101</code></td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td><code>10</code><br><code>999</code></td>
+        <td><code>100</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

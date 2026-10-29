@@ -1,4 +1,4 @@
-# Challenge 24: Three-digit number
+# Three-digit number
 
 ## Your task
 
@@ -17,6 +17,12 @@ Show `YES` if it has exactly three digits; otherwise `NO`.
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
 
 Use capital letters for these messages.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Think about the first and last positive numbers with three digits. Then consider the same number of digits with a minus sign in front. The minus sign does not count as a digit.
 
 ## Need a hand?
 
@@ -40,15 +46,67 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>179</code> | <code>YES</code> |
-| 2 | <code>1234</code> | <code>NO</code> |
-| 3 | <code>100</code> | <code>YES</code> |
-| 4 | <code>99</code> | <code>NO</code> |
-| 5 | <code>7</code> | <code>NO</code> |
-| 6 | <code>999</code> | <code>YES</code> |
-| 7 | <code>238</code> | <code>YES</code> |
-| 8 | <code>1000</code> | <code>NO</code> |
-| 9 | <code>8912</code> | <code>NO</code> |
-| 10 | <code>12912</code> | <code>NO</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 24: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 24: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>179</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>1234</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>100</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>99</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>7</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>999</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><code>238</code></td>
+        <td><code>YES</code></td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><code>1000</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td><code>8912</code></td>
+        <td><code>NO</code></td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td><code>12912</code></td>
+        <td><code>NO</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

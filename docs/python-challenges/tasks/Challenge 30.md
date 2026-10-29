@@ -1,4 +1,4 @@
-# Challenge 30: Count equal numbers
+# Count equal numbers
 
 ## Your task
 
@@ -15,6 +15,12 @@ Three whole numbers; negative numbers and zero are allowed. Type each number on 
 One whole number: `3` if all are equal, `2` if exactly two are equal, or `0` if all are different.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Read the three possible outputs before planning your decisions. All three values being the same is a different situation from only two matching. Check that one situation cannot accidentally receive two answers.
 
 ## Need a hand?
 
@@ -38,11 +44,47 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>10</code><br><code>5</code><br><code>10</code> | <code>2</code> |
-| 2 | <code>17</code><br><code>17</code><br><code>-9</code> | <code>2</code> |
-| 3 | <code>4</code><br><code>-82</code><br><code>-82</code> | <code>2</code> |
-| 4 | <code>5</code><br><code>2</code><br><code>4</code> | <code>0</code> |
-| 5 | <code>-149</code><br><code>-146</code><br><code>-142</code> | <code>0</code> |
-| 6 | <code>666</code><br><code>666</code><br><code>666</code> | <code>3</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 30: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 30: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>10</code><br><code>5</code><br><code>10</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>17</code><br><code>17</code><br><code>-9</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>4</code><br><code>-82</code><br><code>-82</code></td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><code>5</code><br><code>2</code><br><code>4</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><code>-149</code><br><code>-146</code><br><code>-142</code></td>
+        <td><code>0</code></td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><code>666</code><br><code>666</code><br><code>666</code></td>
+        <td><code>3</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,4 +1,4 @@
-# Challenge 1: Sum of three numbers
+# Sum of three numbers
 
 ## Your task
 
@@ -15,6 +15,12 @@ Three whole numbers; negative numbers and zero are allowed. Type each number on 
 One whole number: the total.
 
 Only show the result described above. Do not add extra words such as "Enter a number" or "The answer is" unless this task asks for them.
+
+## Hint
+
+??? tip "Show a hint"
+
+    Give each of the three numbers its own variable. Before using them in a calculation, check that Python is treating them as numbers rather than text.
 
 ## Need a hand?
 
@@ -38,8 +44,32 @@ Use the tests below to check your program. You do not need to make up your own n
 
 Where a table cell has several lines, keep the same line breaks when typing or comparing the result.
 
-| Test | Type these values<br>one per line | You should see |
-| --- | --- | --- |
-| 1 | <code>2</code><br><code>3</code><br><code>6</code> | <code>11</code> |
-| 2 | <code>0</code><br><code>20</code><br><code>300</code> | <code>320</code> |
-| 3 | <code>-5</code><br><code>180</code><br><code>-17</code> | <code>158</code> |
+<div class="challenge-table-scroll" role="region" aria-label="Challenge 1: test runs" tabindex="0">
+  <table class="challenge-table challenge-table--tests">
+    <caption>Challenge 1: test runs</caption>
+    <thead>
+      <tr>
+        <th scope="col">Test</th>
+        <th scope="col">Type these values<br>one per line</th>
+        <th scope="col">You should see</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><code>2</code><br><code>3</code><br><code>6</code></td>
+        <td><code>11</code></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><code>0</code><br><code>20</code><br><code>300</code></td>
+        <td><code>320</code></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><code>-5</code><br><code>180</code><br><code>-17</code></td>
+        <td><code>158</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
