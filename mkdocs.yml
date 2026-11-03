@@ -223,7 +223,16 @@ nav:
       - 'Challenge 96': 'python-challenges/tasks/Challenge 96.md'
       - 'Challenge 97': 'python-challenges/tasks/Challenge 97.md'
       - 'Challenge 98': 'python-challenges/tasks/Challenge 98.md'
-
+  - Exam Theory:
+    - Answering Code Questions:
+      - Overview: '01-sdd/sdd-pupil-guide.md'
+      - Understand the Question: '01-sdd/exam-theory/understand-the-question.md'
+      - Trace Values: '01-sdd/exam-theory/trace-values.md'
+      - Check Conditions: '01-sdd/exam-theory/check-conditions.md'
+      - Follow Loops: '01-sdd/exam-theory/follow-loops.md'
+      - Explain Code: '01-sdd/exam-theory/explain-code.md'
+      - Write an Algorithm: '01-sdd/exam-theory/write-an-algorithm.md'
+      - Find and Fix Errors: '01-sdd/exam-theory/find-and-fix-errors.md'
 markdown_extensions:
       - admonition
       - pymdownx.details
@@ -278,7 +287,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes 
-    - navigation.footer
     - navigation.tabs
 plugins:
   - search
