@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 510" width="640" height="510" role="img" aria-labelledby="title">
+  <title id="title">Choose one of three postage costs</title>
+  <rect width="640" height="510" rx="8" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M320 53V75"/>
+    <path d="M320 117V132"/>
+    <path d="M205 178H106V379"/>
+    <path d="M320 224V243H431V256"/>
+    <path d="M316 302H278V359H322V379"/>
+    <path d="M546 302H572V359H539V379"/>
+    <path d="M106 423V476H266"/>
+    <path d="M322 423V457"/>
+    <path d="M539 423V476H374"/>
+  </g>
+  <rect x="266" y="15" width="108" height="38" rx="19" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <path d="M230 75H422L410 117H218Z" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <path d="M320 132L435 178L320 224L205 178Z" fill="#dbeafe" stroke="#334155" stroke-width="2"/>
+  <path d="M431 256L546 302L431 348L316 302Z" fill="#dbeafe" stroke="#334155" stroke-width="2"/>
+  <path d="M35 379H189L177 423H23Z" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <path d="M251 379H405L393 423H239Z" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <path d="M468 379H622L610 423H456Z" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <rect x="266" y="457" width="108" height="38" rx="19" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="17" text-anchor="middle">
+    <text x="152" y="169">Yes</text>
+    <text x="350" y="239">No</text>
+    <text x="290" y="291">Yes</text>
+    <text x="586" y="295">No</text>
+    <text x="320" y="40">Start</text>
+    <text x="320" y="102">Get parcel weight</text>
+    <text x="320" y="174">Weight over</text>
+    <text x="320" y="194">200 g?</text>
+    <text x="431" y="298">Weight over</text>
+    <text x="431" y="318">100 g?</text>
+    <text x="106" y="407">Display £4.50</text>
+    <text x="322" y="407">Display £2.50</text>
+    <text x="539" y="407">Display £1.50</text>
+    <text x="320" y="482">Stop</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 493" width="420" height="493" role="img" aria-labelledby="title">
+  <title id="title">Flowchart for totalling five numbers with a fixed loop</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="420" height="493" rx="12" fill="#f8fafc"/>
+  <g fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M150 56V78"/>
+    <path d="M150 124V153"/>
+    <path d="M150 237V267"/>
+    <path d="M150 310V337"/>
+    <path d="M150 379V405"/>
+    <path d="M74 426H28V139H150"/>
+    <path d="M256 195H335V267"/>
+    <path d="M335 310V337"/>
+  </g>
+  <g fill="#fff" stroke="#334155" stroke-width="2">
+    <rect x="101" y="18" width="98" height="38" rx="19"/>
+    <rect x="57" y="78" width="186" height="46"/>
+    <path d="M150 153L256 195L150 237L44 195Z" fill="#dbeafe"/>
+    <path d="M87 267H230L213 310H70Z"/>
+    <rect x="63" y="337" width="174" height="42"/>
+    <rect x="74" y="405" width="152" height="42"/>
+    <path d="M279 267H405L391 310H265Z"/>
+    <rect x="286" y="337" width="98" height="42" rx="21"/>
+  </g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" text-anchor="middle">
+    <text x="150" y="42">Start</text>
+    <text x="150" y="98">Set total to 0</text>
+    <text x="150" y="116">Set counter to 1</text>
+    <text x="150" y="200">Is counter ≤ 5?</text>
+    <text x="172" y="256">Yes</text>
+    <text x="285" y="186">No</text>
+    <text x="150" y="294">Get number</text>
+    <text x="150" y="363">Add number to total</text>
+    <text x="150" y="432">Add 1 to counter</text>
+    <text x="335" y="294">Display total</text>
+    <text x="335" y="363">Stop</text>
+  </g>
+</svg>

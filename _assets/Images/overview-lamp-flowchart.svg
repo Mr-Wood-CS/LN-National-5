@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 448" width="425" height="448" role="img" aria-labelledby="title">
+  <title id="title">Lamp troubleshooting flowchart</title>
+  <rect width="425" height="448" rx="10" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M120 62V99"/>
+    <path d="M216 146H269"/>
+    <path d="M120 193V238"/>
+    <path d="M216 285H269"/>
+    <path d="M120 332V386"/>
+  </g>
+  <g fill="#fff" stroke="#334155" stroke-width="2">
+    <rect x="32" y="20" width="176" height="42" rx="20"/>
+    <path d="M120 99L216 146L120 193L24 146Z" fill="#dbeafe"/>
+    <rect x="269" y="124" width="134" height="44"/>
+    <path d="M120 238L216 285L120 332L24 285Z" fill="#dbeafe"/>
+    <rect x="269" y="263" width="134" height="44"/>
+    <rect x="51" y="386" width="138" height="42"/>
+  </g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="17" text-anchor="middle">
+    <text x="120" y="47">Lamp doesn't work</text>
+    <text x="120" y="142">Lamp</text>
+    <text x="120" y="162">plugged in?</text>
+    <text x="336" y="152">Plug in lamp</text>
+    <text x="120" y="281">Bulb</text>
+    <text x="120" y="301">burned out?</text>
+    <text x="336" y="291">Replace bulb</text>
+    <text x="120" y="412">Repair lamp</text>
+    <g font-size="15">
+      <text x="243" y="136">No</text>
+      <text x="143" y="221">Yes</text>
+      <text x="243" y="275">Yes</text>
+      <text x="142" y="362">No</text>
+    </g>
+  </g>
+</svg>
