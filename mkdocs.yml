@@ -57,7 +57,7 @@ nav:
     - Evaluation:
       - Evaluating a Program: '02-sdd/2.7-evaluation/01-evaluating-code.md'
       - Evaluating Code Quality: '02-sdd/2.7-evaluation/02-evaluating-code-quality.md'
-    - Programming case study — Bike hire: '02-sdd/programming-case-study.md'
+    - SDD Fully Worked Example: '02-sdd/programming-case-study.md'
   - Computer Systems:
     - Data Representation:
       - Understanding Binary: '03-cs/3.1-data-representation/2.1-number-representation.md'

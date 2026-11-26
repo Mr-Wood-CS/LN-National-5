@@ -1,4 +1,4 @@
-# Programming case study: Bike hire
+# The Bike Hire Shop
 
 A bike hire shop charges **£6 per hour**. Customers can hire a bike for **1 to 4 whole hours**. The program asks for the number of hours. If a whole number is outside this range, it displays an error and asks again. Once the customer enters an accepted value, the program displays the total cost in pounds. Assume the customer enters whole numbers.
 

@@ -4,7 +4,7 @@ National 5 Computing Science helps you develop knowledge and understanding of co
 
 The course also develops computational thinking and practical problem-solving skills. These skills are used to solve problems in software, databases and websites.
 
-## Start here
+## Your National 5 course
 
 These notes teach **Database Design and Development** as the optional route. If you’re following this route, prepare for **Sections 1 and 2** of the question paper and **Tasks 1 and 2** of the practical assignment.
 
