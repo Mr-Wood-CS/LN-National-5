@@ -58,3 +58,7 @@ VALUES (106, 'Shortbread', 110, 99);
 ```
 
 SQLite reports a foreign-key constraint failure, and no product is added. With these constraints, SQLite also rejects deleting a bakery while products still refer to it.
+
+[Next lesson — SQL SELECT Operations](3.4.1-sql-select.md)
+
+[See the implemented Bakery query](3.4.3-sql-equi-joins.md#filtering-and-sorting-joined-results)

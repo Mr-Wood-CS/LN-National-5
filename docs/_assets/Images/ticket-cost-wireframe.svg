@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 292" width="580" height="292" role="img" aria-labelledby="title">
+  <title id="title">Annotated ticket cost calculator interface</title>
+  <rect width="580" height="292" rx="10" fill="#f1f5f9"/>
+  <rect x="20" y="20" width="330" height="252" rx="5" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <path d="M20 62H350" stroke="#334155"/>
+  <g stroke="#334155" fill="#fff">
+    <rect x="185" y="83" width="143" height="30"/>
+    <rect x="185" y="126" width="143" height="30"/>
+    <rect x="42" y="170" width="151" height="34" rx="4" fill="#dbeafe"/>
+    <rect x="185" y="224" width="143" height="30" fill="#f1f5f9"/>
+  </g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="15">
+    <text x="42" y="46" font-size="19" font-weight="600">Ticket Cost Calculator</text>
+    <text x="42" y="103">Number of tickets</text>
+    <text x="42" y="146">Price per ticket (£)</text>
+    <text x="57" y="192">Calculate total</text>
+    <text x="42" y="244">Total cost (£)</text>
+    <text x="401" y="94" font-weight="600">Inputs</text>
+    <text x="401" y="115">Enter quantity and</text>
+    <text x="401" y="135">price per ticket.</text>
+    <text x="401" y="181" font-weight="600">Action</text>
+    <text x="401" y="202">Start the calculation.</text>
+    <text x="401" y="235" font-weight="600">Output</text>
+    <text x="401" y="256">Read the total cost.</text>
+  </g>
+  <g stroke="#475569" fill="none" stroke-width="1.5">
+    <path d="M328 98H367V141H328 M367 108H391"/>
+    <path d="M193 187H391"/>
+    <path d="M328 239H391"/>
+  </g>
+</svg>

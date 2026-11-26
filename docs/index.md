@@ -4,6 +4,15 @@ National 5 Computing Science helps you develop knowledge and understanding of co
 
 The course also develops computational thinking and practical problem-solving skills. These skills are used to solve problems in software, databases and websites.
 
+## Start here
+
+These notes teach **Database Design and Development** as the optional route. If you’re following this route, prepare for **Sections 1 and 2** of the question paper and **Tasks 1 and 2** of the practical assignment.
+
+- [Software Design and Development — Analysis](02-sdd/2.1-analysis/1.2-analysis.md)
+- [Database Design and Development — Database Structure](04-ddd/4.1-databse-structure/3.1.1-database-structure.md)
+- [Python Challenges](python-challenges/index.md)
+- [Answering Code Questions](05-exam-theory/sdd-pupil-guide.md)
+
 ## Course Content
 
 The course has four areas of study:
@@ -112,7 +121,7 @@ The question paper has three sections. Section 1 is mandatory. You then complete
 
 ## Practical Assignment
 
-The practical assignment is worth 40 marks and is completed under supervised open-book conditions.
+The practical assignment is worth 40 marks and must be completed within **six hours** under supervised open-book conditions. The time can be spread across several shorter sessions. [National 5 Computing Science course specification](https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-computing-science.pdf#page=18)
 
 The assignment has three tasks. Task 1 is mandatory. You then complete either Task 2 or Task 3.
 
