@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 302" width="640" height="302" role="img" aria-labelledby="title">
+  <title id="title">Structure diagram for checking a password</title>
+  <rect width="640" height="302" fill="white"/>
+  <g fill="white" stroke="#222" stroke-width="2">
+    <path d="M320 76V128 M98 128V102H542V128 M320 180V226" fill="none"/>
+    <rect x="192" y="24" width="256" height="52" rx="0"/>
+    <rect x="20" y="128" width="156" height="52" rx="0"/>
+    <rect x="196" y="128" width="248" height="52" rx="26"/>
+    <rect x="464" y="128" width="156" height="52" rx="0"/>
+    <rect x="219" y="226" width="202" height="52" rx="0"/>
+  </g>
+  <g fill="#111" font-family="system-ui, sans-serif" font-size="17" text-anchor="middle">
+    <text x="320" y="56">Check password</text>
+    <text x="98" y="160">Enter password</text>
+    <text x="320" y="160">While password is incorrect</text>
+    <text x="542" y="160">Continue</text>
+    <text x="320" y="258">Enter password again</text>
+  </g>
+</svg>

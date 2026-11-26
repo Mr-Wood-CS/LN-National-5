@@ -2,117 +2,124 @@ site_name: National 5 Computer Science
 
 nav:
   - Home: 'index.md'
+  - Development Methodologies: '01-development-methodologies/1.1-development-methodologies.md'
   - Software Design and Development:
-    - Development Methodologies: '01-sdd/1.1-development-methodologies/1.1-development-methodologies.md'
     - Analysis:
-      - Explanation: '01-sdd/1.2-analysis/1.2-analysis.md'
-      - Tasks: '01-sdd/1.2-analysis/1.2.1-analysis-tasks.md'
+      - Explanation: '02-sdd/2.1-analysis/1.2-analysis.md'
+      - Tasks: '02-sdd/2.1-analysis/1.2.1-analysis-tasks.md'
     - Design:
-      - Explanation: '01-sdd/1.3-design/1.3.1-explanation.md'
-      - Data Types and Structures:
-        - Explanation: '01-sdd/1.3-design/1.3.2-data-types-and-structures.md'
-        - Tasks: '01-sdd/1.3-design/1.3.2.1-data-types and-structures-tasks.md'
+      - Explanation: '02-sdd/2.3-design/3.1-explanation.md'
+      - Data Types and Structures: '02-sdd/2.3-design/3.2-data-types-and-structures.md'
+        #- Tasks: '02-sdd/2.3-design/data-types and-structures-tasks.md'
       - Design Notation:
-        - Explanation: '01-sdd/1.3-design/1.3.3-design-notation-explanation.md'
-        - Sequencing:
-          - Explanation: '01-sdd/1.3-design/1.3.3.1-sequencing.md'
-          - Tasks: '01-sdd/1.3-design/1.3.3.1.1-sequencing-tasks.md'
-        #- Iteration: '01-sdd/1.3-design/1.3.3.3-iteration.md'
-      # - Wireframes: '01-sdd/1.3-design/1.3.6-wireframes.md'
+        - Explanation: '02-sdd/2.3-design/3.3-design-notation-explanation.md'
+        - Sequencing: '02-sdd/2.3-design/3.4-sequencing.md'
+          #- Tasks: '02-sdd/2.3-design/sequencing-tasks.md'
+        - Selection: '02-sdd/2.3-design/3.5-selection.md'
+        - Iteration: '02-sdd/2.3-design/3.6-iteration.md'
+      # - Wireframes: '02-sdd/2.3-design/3.7-wireframes.md'
     - Implementation:
       - Input/Output:
-        - Overview: '01-sdd/1.4-implementation/01-input-output/1.1-input-output.md'
-        - Comments: '01-sdd/1.4-implementation/01-input-output/1.2-comments.md'
+        - Overview: '02-sdd/2.4-implementation/01-input-output/1.1-input-output.md'
+        - Comments: '02-sdd/2.4-implementation/01-input-output/1.2-comments.md'
         - Variables:
-          - Explanation: '01-sdd/1.4-implementation/01-input-output/1.3-variables.md'
+          - Explanation: '02-sdd/2.4-implementation/01-input-output/1.3-variables.md'
         - Arrays:
-          - Explanation: '01-sdd/1.4-implementation/01-input-output/1.4-arrays.md'
-        - Data Types: '01-sdd/1.4-implementation/01-input-output/1.5-data-types.md'
+          - Explanation: '02-sdd/2.4-implementation/01-input-output/1.4-arrays.md'
+        - Data Types: '02-sdd/2.4-implementation/01-input-output/1.5-data-types.md'
         - Input and Output:
-          - Output: '01-sdd/1.4-implementation/01-input-output/1.6-output.md'
-          - Input: '01-sdd/1.4-implementation/01-input-output/1.7-input.md'
+          - Output: '02-sdd/2.4-implementation/01-input-output/1.6-output.md'
+          - Input: '02-sdd/2.4-implementation/01-input-output/1.7-input.md'
         - Working with Numbers:
-          - Inputting Numbers: '01-sdd/1.4-implementation/01-input-output/1.8-inputting-numbers.md'
-          - Calculations: '01-sdd/1.4-implementation/01-input-output/1.9-calculations.md'
-        - String Concatenation: '01-sdd/1.4-implementation/01-input-output/1.10-string-concatenation.md'
+          - Inputting Numbers: '02-sdd/2.4-implementation/01-input-output/1.8-inputting-numbers.md'
+          - Calculations: '02-sdd/2.4-implementation/01-input-output/1.9-calculations.md'
+        - String Concatenation: '02-sdd/2.4-implementation/01-input-output/1.10-string-concatenation.md'
       - Selection:
         - Simple Conditional Statements:
-          - Overview: '01-sdd/1.4-implementation/02-selection/2.1-simple-conditional-statements.md'
-          - If Statements: '01-sdd/1.4-implementation/02-selection/1.4.2.1.1-if-statements.md'
-          - If/Else Statements: '01-sdd/1.4-implementation/02-selection/1.4.2.1.2-if-else-statements.md'
-          - If/Elif/Else Statements: '01-sdd/1.4-implementation/02-selection/1.4.2.1.3-if-elif-else-statements.md'
-          - Putting it all Together: '01-sdd/1.4-implementation/02-selection/1.4.2.1.4-selection-tasks.md'
-        - Complex Conditional Statements: '01-sdd/1.4-implementation/02-selection/1.4.2.2-complex-conditional-statements.md'
+          - Overview: '02-sdd/2.4-implementation/02-selection/2.1-simple-conditional-statements.md'
+          - If Statements: '02-sdd/2.4-implementation/02-selection/1.4.2.1.1-if-statements.md'
+          - If/Else Statements: '02-sdd/2.4-implementation/02-selection/1.4.2.1.2-if-else-statements.md'
+          - If/Elif/Else Statements: '02-sdd/2.4-implementation/02-selection/1.4.2.1.3-if-elif-else-statements.md'
+          - Putting it all Together: '02-sdd/2.4-implementation/02-selection/1.4.2.1.4-selection-tasks.md'
+        - Complex Conditional Statements: '02-sdd/2.4-implementation/02-selection/1.4.2.2-complex-conditional-statements.md'
       - Iteration:
-        - Fixed Loops (for): '01-sdd/1.4-implementation/03-iteration/3.1-Fixed-Loops-(for).md'
-        - Conditional Loops (while): '01-sdd/1.4-implementation/03-iteration/3.2-Conditional-Loops-(while).md'
+        - Fixed Loops (for): '02-sdd/2.4-implementation/03-iteration/3.1-Fixed-Loops-(for).md'
+        - Conditional Loops (while): '02-sdd/2.4-implementation/03-iteration/3.2-Conditional-Loops-(while).md'
       - Standard Algorithms:
-        - Traversing a 1D Array: '01-sdd/1.4-implementation/04-standard-algorithms/4.1-traversing-a-1d-array.md'
-        - Running Total Within a Loop: '01-sdd/1.4-implementation/04-standard-algorithms/4.2-running-total-within-a-loop.md'
-        - Input Validation: '01-sdd/1.4-implementation/04-standard-algorithms/4.3-input-validation.md'
+        - Traversing a 1D Array: '02-sdd/2.4-implementation/04-standard-algorithms/4.1-traversing-a-1d-array.md'
+        - Running Total Within a Loop: '02-sdd/2.4-implementation/04-standard-algorithms/4.2-running-total-within-a-loop.md'
+        - Input Validation: '02-sdd/2.4-implementation/04-standard-algorithms/4.3-input-validation.md'
+    - Testing:
+      - Test Data and Test Tables: '02-sdd/2.5-testing/01.md'
+      - Types of Programming Errors: '02-sdd/2.5-testing/02-types-of-errors.md'
+    - Documentation: '02-sdd/2.6-documentation/01-documentation.md'
+    - Evaluation:
+      - Evaluating a Program: '02-sdd/2.7-evaluation/01-evaluating-code.md'
+      - Evaluating Code Quality: '02-sdd/2.7-evaluation/02-evaluating-code-quality.md'
   - Computer Systems:
     - Data Representation:
-      - Understanding Binary: '02-cs/2.1-data-representation/2.1-number-representation.md'
-      - Binary to Decimal Conversion: '02-cs/2.1-data-representation/2.1.1-binary-to-decimal.md'
-      - Decimal to Binary Conversion: '02-cs/2.1-data-representation/2.1.2-decimal-to-binary.md'
+      - Understanding Binary: '03-cs/3.1-data-representation/2.1-number-representation.md'
+      - Binary to Decimal Conversion: '03-cs/3.1-data-representation/2.1.1-binary-to-decimal.md'
+      - Decimal to Binary Conversion: '03-cs/3.1-data-representation/2.1.2-decimal-to-binary.md'
       - ASCII:
-        - Explanation: '02-cs/2.1-data-representation/2.1.3-ascii.md'
-        - Tasks: '02-cs/2.1-data-representation/2.1.3.1-ascii-tasks.md'
+        - Explanation: '03-cs/3.1-data-representation/2.1.3-ascii.md'
+        - Tasks: '03-cs/3.1-data-representation/2.1.3.1-ascii-tasks.md'
   - Database Design and Development:
     - Database Structure:
-      - What Makes a Database?: '03-ddd/3.1-databse-structure/3.1.1-database-structure.md'
-      - Relational Databases: '03-ddd/3.1-databse-structure/3.1.2-relational-databases.md'
-      - Entities: '03-ddd/3.1-databse-structure/3.1.3-entities.md'
-      - Attributes: '03-ddd/3.1-databse-structure/3.1.4-attributes.md'
-      - Field Types: '03-ddd/3.1-databse-structure/3.1.5-field-types.md'
-      - Primary Keys: '03-ddd/3.1-databse-structure/3.1.6-primary-keys.md'
-      - Foreign Keys: '03-ddd/3.1-databse-structure/3.1.7-foreign-keys.md'
-      - How Tables Link: '03-ddd/3.1-databse-structure/3.1.8-how-tables-link.md'
-      - Tasks: '03-ddd/3.1-databse-structure/3.1.9-database-structure-tasks.md'
+      - What Makes a Database?: '04-ddd/4.1-databse-structure/3.1.1-database-structure.md'
+      - Relational Databases: '04-ddd/4.1-databse-structure/3.1.2-relational-databases.md'
+      - Entities: '04-ddd/4.1-databse-structure/3.1.3-entities.md'
+      - Attributes: '04-ddd/4.1-databse-structure/3.1.4-attributes.md'
+      - Field Types: '04-ddd/4.1-databse-structure/3.1.5-field-types.md'
+      - Primary Keys: '04-ddd/4.1-databse-structure/3.1.6-primary-keys.md'
+      - Foreign Keys: '04-ddd/4.1-databse-structure/3.1.7-foreign-keys.md'
+      - How Tables Link: '04-ddd/4.1-databse-structure/3.1.8-how-tables-link.md'
+      - Tasks: '04-ddd/4.1-databse-structure/3.1.9-database-structure-tasks.md'
     - Analysis:
-      - Explanation: '03-ddd/3.2-analysis/3.2-analysis.md'
-      - Worked Example: '03-ddd/3.2-analysis/3.2.1-worked-example.md'
-      - Tasks: '03-ddd/3.2-analysis/3.2.1-analysis-tasks.md'
+      - Explanation: '04-ddd/4.2-analysis/3.2-analysis.md'
+      - Worked Example: '04-ddd/4.2-analysis/3.2.1-worked-example.md'
+      - Tasks: '04-ddd/4.2-analysis/3.2.1-analysis-tasks.md'
     - Design:
       - Data Dictionaries:
-        - Explanation: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1-Data-Dictionaries.md'
-        - Field Names and Data Types: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.1-field-names-and-data-types.md'
-        - Field Sizes: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.2-field-sizes.md'
-        - Primary and Foreign Keys: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.3-primary-and-foreign-keys.md'
-        - Validation: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.4-validation.md'
-        - Worked Example: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.5-worked-example.md'
-        - Tasks: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.6-tasks.md'
+        - Explanation: '04-ddd/4.3-design/3.3.1-data-dictionairies/3.3.1-Data-Dictionaries.md'
+        - Field Names and Data Types: '04-ddd/4.3-design/3.3.1-data-dictionairies/3.3.1.1-field-names-and-data-types.md'
+        - Field Sizes: '04-ddd/4.3-design/3.3.1-data-dictionairies/3.3.1.2-field-sizes.md'
+        - Primary and Foreign Keys: '04-ddd/4.3-design/3.3.1-data-dictionairies/3.3.1.3-primary-and-foreign-keys.md'
+        - Validation: '04-ddd/4.3-design/3.3.1-data-dictionairies/3.3.1.4-validation.md'
+        - Worked Example: '04-ddd/4.3-design/3.3.1-data-dictionairies/3.3.1.5-worked-example.md'
+        - Tasks: '04-ddd/4.3-design/3.3.1-data-dictionairies/3.3.1.6-tasks.md'
       - Database Relationships: 
-        - Explanation: '03-ddd/3.3-design/3.3.2-entity-relationship-diagrams/3.3.2-db-relationships.md'
-        - Tasks: '03-ddd/3.3-design/3.3.2-entity-relationship-diagrams/3.3.2.1-db-relationship-tasks.md'
-      - Query Design: '03-ddd/3.3-design/3.3.3-query-design/3.3.3-query-design.md'
-      - General Data Protection Regulation: '03-ddd/3.3-design/3.3.4-general-data-protection-regulation.md'
+        - Explanation: '04-ddd/4.3-design/3.3.2-entity-relationship-diagrams/3.3.2-db-relationships.md'
+        - Tasks: '04-ddd/4.3-design/3.3.2-entity-relationship-diagrams/3.3.2.1-db-relationship-tasks.md'
+      - Query Design: '04-ddd/4.3-design/3.3.3-query-design/3.3.3-query-design.md'
+      - General Data Protection Regulation: '04-ddd/4.3-design/3.3.4-general-data-protection-regulation.md'
     - Implementation:
+      - Building a Two-Table Database: '04-ddd/4.4-implementation/bakery-database.md'
       - SQL Select:
-        - Explanation: '03-ddd/3.4-implementation/3.4.1-sql-select.md'
-        - Tasks: '03-ddd/3.4-implementation/3.4.1.1-select-tasks.md'
+        - Explanation: '04-ddd/4.4-implementation/3.4.1-sql-select.md'
+        - Tasks: '04-ddd/4.4-implementation/3.4.1.1-select-tasks.md'
       - SQL Insert/Update/Delete:
-        - Insert: '03-ddd/3.4-implementation/3.4.2-sql-insert.md'
-        - Update: '03-ddd/3.4-implementation/3.4.2.2-sql-update.md'
-        - Delete: '03-ddd/3.4-implementation/3.4.2.3-sql-delete.md'
-        - Tasks: '03-ddd/3.4-implementation/3.4.2.1-insert-update-delete-tasks.md'
+        - Insert: '04-ddd/4.4-implementation/3.4.2-sql-insert.md'
+        - Update: '04-ddd/4.4-implementation/3.4.2.2-sql-update.md'
+        - Delete: '04-ddd/4.4-implementation/3.4.2.3-sql-delete.md'
+        - Tasks: '04-ddd/4.4-implementation/3.4.2.1-insert-update-delete-tasks.md'
       - SQL Equi-Joins:
-        - Explanation: '03-ddd/3.4-implementation/3.4.3-sql-equi-joins.md'
-        - Tasks: '03-ddd/3.4-implementation/3.4.4-equi-join-tasks.md'
-    - Testing: '03-ddd/3.5-testing/3.5.1-db-testing.md'
-    - Evaluation: '03-ddd/3.6-evaluation/3.6.1-db-evaluation.md'
+        - Explanation: '04-ddd/4.4-implementation/3.4.3-sql-equi-joins.md'
+        - Tasks: '04-ddd/4.4-implementation/3.4.4-equi-join-tasks.md'
+    - Testing: '04-ddd/4.5-testing/3.5.1-db-testing.md'
+    - Evaluation: '04-ddd/4.6-evaluation/3.6.1-db-evaluation.md'
     - Practice Questions:
       - Bishra's Bakery:
-        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.4-bishras-bakery.md'
-        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.4.1-select-from-where.md'
+        - Overview: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.4-bishras-bakery.md'
+        - SELECT and WHERE: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.4.1-select-from-where.md'
       - Videoblogger:
-        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
-        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.1-select-from-where.md'
-        - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.2-select-order-by.md'
-        - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.3-insert-update-delete.md'
-        - Equi-Joins: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.4-equi-joins.md'
-      - After School Clubs: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
-      - Scottish Golfers: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3-scottish-golfers.md'
+        - Overview: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
+        - SELECT and WHERE: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.1.1-select-from-where.md'
+        - SELECT and ORDER BY: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.1.2-select-order-by.md'
+        - INSERT, UPDATE and DELETE: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.1.3-insert-update-delete.md'
+        - Equi-Joins: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.1.4-equi-joins.md'
+      - After School Clubs: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
+      - Scottish Golfers: '04-ddd/4.7-practice-question/3.7.4-implementation/3.7.4.3-scottish-golfers.md'
   - Python Challenges:
     - Overview: 'python-challenges/index.md'
     - Input/Output:
@@ -223,14 +230,14 @@ nav:
       - 'Challenge 98': 'python-challenges/tasks/Challenge 98.md'
   - Exam Theory:
     - Answering Code Questions:
-      - Overview: '01-sdd/sdd-pupil-guide.md'
-      - Understand the Question: '01-sdd/exam-theory/understand-the-question.md'
-      - Trace Values: '01-sdd/exam-theory/trace-values.md'
-      - Check Conditions: '01-sdd/exam-theory/check-conditions.md'
-      - Follow Loops: '01-sdd/exam-theory/follow-loops.md'
-      - Explain Code: '01-sdd/exam-theory/explain-code.md'
-      - Write an Algorithm: '01-sdd/exam-theory/write-an-algorithm.md'
-      - Find and Fix Errors: '01-sdd/exam-theory/find-and-fix-errors.md'
+      - Overview: '05-exam-theory/sdd-pupil-guide.md'
+      - Understand the Question: '05-exam-theory/understand-the-question.md'
+      - Trace Values: '05-exam-theory/trace-values.md'
+      - Check Conditions: '05-exam-theory/check-conditions.md'
+      - Follow Loops: '05-exam-theory/follow-loops.md'
+      - Explain Code: '05-exam-theory/explain-code.md'
+      - Write an Algorithm: '05-exam-theory/write-an-algorithm.md'
+      - Find and Fix Errors: '05-exam-theory/find-and-fix-errors.md'
 markdown_extensions:
       - admonition
       - pymdownx.details

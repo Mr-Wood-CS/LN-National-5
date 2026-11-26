@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 402" width="640" height="402" role="img" aria-labelledby="title">
+  <title id="title">Calculate parcel postage</title>
+  <rect width="640" height="402" rx="8" fill="#f8fafc"/>
+  <g fill="none" stroke="#334155" stroke-width="2">
+    <path d="M320 66V84 M137 107V84H412V100"/>
+    <path d="M412 164L247 228"/>
+    <path d="M412 164L480 220"/>
+    <path d="M480 284L391 331"/>
+    <path d="M480 284L550 331"/>
+  </g>
+  <rect x="200" y="18" width="240" height="48" rx="0" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <rect x="35" y="107" width="204" height="50" rx="0" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <path d="M330 100H494L519 132L494 164H330L305 132Z" fill="#dbeafe" stroke="#334155" stroke-width="2"/>
+  <rect x="170" y="228" width="154" height="48" rx="0" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <path d="M398 220H562L587 252L562 284H398L373 252Z" fill="#dbeafe" stroke="#334155" stroke-width="2"/>
+  <rect x="314" y="331" width="154" height="48" rx="0" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <rect x="473" y="331" width="154" height="48" rx="0" fill="#fff" stroke="#334155" stroke-width="2"/>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="17" text-anchor="middle">
+    <text x="306" y="194">Yes</text>
+    <text x="461" y="185">No</text>
+    <text x="411" y="303">Yes</text>
+    <text x="530" y="302">No</text>
+    <text x="320" y="48">Calculate parcel postage</text>
+    <text x="137" y="138">Get parcel weight</text>
+    <text x="412" y="138">Weight over 200 g?</text>
+    <text x="247" y="258">Display £4.50</text>
+    <text x="480" y="258">Weight over 100 g?</text>
+    <text x="391" y="361">Display £2.50</text>
+    <text x="550" y="361">Display £1.50</text>
+  </g>
+</svg>
